@@ -4,6 +4,7 @@
   import { fly, slide } from 'svelte/transition';
 
   import { lastSplash, preferences } from '@utils/store';
+  import i18n from '@utils/i18n';
 
   let splash = $lastSplash < new Date().getTime() || !$preferences.splashTimer;
   let greeting = false;
@@ -28,7 +29,7 @@
     class="fixed inset-0 bg-base-x z-50 flex justify-center items-center"
   >
     {#if greeting}
-      <span transition:slide class="text-4xl font-semibold">Welcome!</span>
+      <span use:i18n transition:slide class="text-4xl font-semibold">Welcome!</span>
     {/if}
   </div>
 {/if}

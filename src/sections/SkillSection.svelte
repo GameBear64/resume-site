@@ -10,7 +10,7 @@
   export let numberOfProjects;
 </script>
 
-<div id="skills" use:inView={{ threshold: 0.4 }} on:enter={() => ($location = 'skills')}>
+<div id="skills" use:inView={{ threshold: 0.2 }} on:enter={() => ($location = 'skills')}>
   <div class="bg-base-m slanted-2 flex justify-center py-12 mb-4 md:mb-0 xl:-mb-2 -mt-5">
     <div class="lg:w-1/2">
       <Stats {numberOfProjects} />
@@ -19,7 +19,7 @@
   <div class="bg-yellow-300 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2">
     <h1 use:i18n class="text-3xl font-semibold">JavaScript</h1>
     <div use:i18n class="max-w-3xl mx-auto my-4">
-      Javascript is my language of choice for doing mostly anything but I am looking to expand my arsenal.
+      JavaScript is my language of choice for doing almost anything, but I am looking to expand my arsenal.
     </div>
     <Skills skillSet={experience.js} />
   </div>

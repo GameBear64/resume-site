@@ -31,8 +31,3 @@
   <Projects {projects} />
   <Footer />
 </main>
-
-<!-- TODO: -->
-<!-- Grammar check for both languages -->
-<!-- Make a settings applier like in pantone wall -->
-<!-- Turn to bg -> reload page -> turn to en -> bug, original text is not applied -->

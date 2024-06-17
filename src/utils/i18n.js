@@ -4,19 +4,25 @@ import { preferences } from '@utils/store';
 import translations from './translations.json';
 
 export const locale = get(preferences).language;
-export const locales = Object.keys(translations);
+
+// Translations:
+// 0: bg
+const locales = ['bg'];
 
 // function approach
-export const t = derived(preferences, $preferences => key => translations?.[$preferences.language]?.[key] || key);
+export const t = derived(
+  preferences,
+  $preferences => key => translations?.[key]?.[locales.indexOf($preferences.language)] || key
+);
 
 // directive approach
 export default function i18n(node) {
+  node.originalText = node.innerText;
   preferences.subscribe(({ language }) => {
     if (language == 'en') {
       node.innerText = node?.originalText || node.innerText;
-      node.originalText = node.innerText;
     } else {
-      node.innerText = translations?.[language]?.[node.innerText] || node.innerText;
+      node.innerText = translations?.[node.innerText]?.[locales.indexOf(language)] || node.innerText;
     }
   });
 }

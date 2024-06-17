@@ -4,13 +4,13 @@
       "title": "Started work at SoftBridge",
       "date": "15-02-2024",
       "icon": "work",
-      "description": "My previous company didn't have much business so they had to close their doors so I had to find another place to go. I ended up at this product company developing cool software with cool people."
+      "description": "My previous company didn't have much business, so they had to close their doors. I had to find another place to go, and I ended up at this product company developing cool software with cool people."
     },
     {
       "title": "Finished the SoftUni JS path",
       "date": "24-06-2023",
       "icon": "trophy",
-      "description": "I managed to finish SoftUni with an excellent grade even while working and got certificate for my efforts.",
+      "description": "I managed to finish SoftUni with an excellent grade even while working, and I got a certificate for my efforts.",
       "links": [
         {
           "name": "SoftUni JS Certificate",
@@ -22,37 +22,37 @@
       "title": "Started work at Balkan Software Studio",
       "date": "15-03-2022",
       "icon": "work",
-      "description": "This was a small local company that allowed me to work on international projects by outstaring me to bigger teams that would usually be outside of my reach. Here I got to learn the most about what its like being in a team on a serous project."
+      "description": "This was a small local company that allowed me to work on international projects by outsourcing me to bigger teams that would usually be outside of my reach. Here I got to learn the most about what it's like being in a team on a serious project."
     },
     {
       "title": "Started SoftUni",
       "date": "05-06-2021",
       "icon": "school",
-      "description": "I wanted to master Javascript so I looked for a place to help me specialize in it so I started the JS path at SoftUni."
+      "description": "I wanted to master JavaScript, so I looked for a place to help me specialize in it, and I started the JS path at SoftUni."
     },
     {
       "title": "Completed a PHP course",
       "date": "30-11-2020",
       "icon": "trophy",
-      "description": "The local dev community had a course for PHP, MYSQL and JS that I attended and completed. It was a great because it showed me another language besides JS and I was also among other developers."
+      "description": "The local dev community had a course for PHP, MySQL, and JS that I attended and completed. It was great because it showed me another language besides JS, and I was also among other developers."
     },
     {
       "title": "Discord Bots",
       "date": "20-11-2018",
       "icon": "supervisor_account",
-      "description": "At 16 I started creating scripts for Discord using their API, I had a couple of friends from all around the world helping me learn Javascript. This would later become \"KaoBot\", my very first project that serves people."
+      "description": "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. This would later become \"KaoBot\", my very first project that serves people."
     },
     {
       "title": "First JS projects",
       "date": "08-04-2018",
       "icon": "trending_up",
-      "description": "Up to now I had created a few HTML and CSS websites but it wasn't enough so I found out about and learned a bit of Javascript, using it to make some elements spin or change color, or for elements to appear when a button was clicked."
+      "description": "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin or change color, or for elements to appear when a button was clicked."
     },
     {
       "title": "First coding experience",
       "date": "22-10-2016",
       "icon": "star",
-      "description": "I wrote my first ever peace of code at 14. It was a small Ruby text based adventure game. The best part is that I found a video of it.",
+      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it.",
       "links": [
         {
           "name": "Embarrassing YouTube Video",
@@ -82,15 +82,15 @@
           "color": "bg-black"
         }
       ],
-      "description": "The website you are on right now! I decided it is time to collect all of my knowledge and experiences and display them in a single place. A cental hub for anyone interested in my work.",
+      "description": "The website you are on right now! I decided it is time to collect all of my knowledge and experiences and display them in a single place. A central hub for anyone interested in my work.",
       "links": [
         {
           "name": "Visit Site",
-          "url": "https://github.com/GameBear64/Clothes-Shop"
+          "url": "https://gam-resume-site.vercel.app/"
         },
         {
           "name": "View Repo",
-          "url": "https://github.com/GameBear64/Clothes-Shop"
+          "url": "https://github.com/GameBear64/resume-site"
         }
       ]
     },
@@ -138,7 +138,7 @@
           "color": "bg-green-600"
         }
       ],
-      "description": "Real-time chatting application. Separated in two main parts: chatting directly or in groups; answering anonymous questions. This app aims to be a fun text adventure with other people."
+      "description": "Real-time chatting application. Separated into two main parts: chatting directly or in groups; answering anonymous questions. This app aims to be a fun text adventure with other people."
     },
     {
       "name": "Stylish Closet",
@@ -228,7 +228,7 @@
           "color": "bg-orange-500"
         }
       ],
-      "description": "I needed to decide which store was the best for another project so I decided to test them all out. In the end I decided to go with \"Nano\".",
+      "description": "I needed to decide which store was the best for another project, so I decided to test them all out. In the end, I decided to go with \"Nano\".",
       "links": [
         {
           "name": "View Repo",
@@ -256,7 +256,7 @@
           "color": "bg-black"
         }
       ],
-      "description": "Another practice app. I wanted to check out Vue.js but I decided that I will also check out tailwind and socket.io so I ended up making a game.",
+      "description": "Another practice app. I wanted to check out Vue.js, but I decided that I will also check out Tailwind and Socket.io, so I ended up making a game.",
       "links": [
         {
           "name": "View Repo",
@@ -288,7 +288,7 @@
           "color": "bg-black"
         }
       ],
-      "description": "This downloads books from the Pleven medical shool library (if you have access to it) and assembles them into whole PDF files. For some reason on their website each book is separated into PDFs with 1 page each and each PDF is on a different route. Looking trough the online library is not a fun experience... This app solves this problem."
+      "description": "This downloads books from the Pleven medical school library (if you have access to it) and assembles them into whole PDF files. For some reason, on their website, each book is separated into PDFs with 1 page each, and each PDF is on a different route. Looking through the online library is not a fun experience... This app solves this problem."
     },
     {
       "name": "Pantone Wall",
@@ -311,7 +311,7 @@
           "color": "bg-black"
         }
       ],
-      "description": "This application was made to solve a simple problem, fast pantone wallpaper generation. I came up with the idea while bousing an image board, when I shared the idea there I was met with support and so I made this.",
+      "description": "This application was made to solve a simple problem, fast pantone wallpaper generation. I came up with the idea while browsing an image board, and when I shared the idea there, I was met with support, so I made this.",
       "links": [
         {
           "name": "Visit Page",
@@ -354,7 +354,7 @@
           "color": "bg-green-600"
         }
       ],
-      "description": "GamBooru was inspired by the \"booru\" image board concept. This is my SoftUni Angular project for the final exam, I wanted to make something meaningful and fun but also different from all other projects.",
+      "description": "GamBooru was inspired by the \"booru\" image board concept. This is my SoftUni Angular project for the final exam. I wanted to make something meaningful and fun but also different from all other projects.",
       "links": [
         {
           "name": "View Repo",
@@ -398,7 +398,7 @@
           "color": "bg-green-600"
         }
       ],
-      "description": "My first React website. I had to make it for the SoftUni exam so I stuck with something simple and improved on it. This social media clone expands on the traditional concept by adding unlimited likes.",
+      "description": "My first React website. I had to make it for the SoftUni exam, so I stuck with something simple and improved on it. This social media clone expands on the traditional concept by adding unlimited likes.",
       "links": [
         {
           "name": "View Repo",
@@ -437,7 +437,7 @@
           "color": "bg-gray-500"
         }
       ],
-      "description": "After my success with KaoBot's mini-games I was inspired to make a full game! I decided to make Uno online but that was a tall task so I practiced multilayer, user accounts, scores, game state and other things I would need with this game."
+      "description": "After my success with KaoBot's mini-games, I was inspired to make a full game! I decided to make Uno online, but that was a tall task, so I practiced multiplayer, user accounts, scores, game state, and other things I would need with this game."
     },
     {
       "name": "KaoBot",
@@ -467,7 +467,7 @@
           "color": "bg-gray-500"
         }
       ],
-      "description": "This is more or less how I got into Javascript. At first this bot started as simple logging script to help me moderate my community but with time I expanded and added features to it. It soon grew to serve over 400 communities",
+      "description": "This is more or less how I got into JavaScript. At first, this bot started as a simple logging script to help me moderate my community, but with time I expanded and added features to it. It soon grew to serve over 400 communities.",
       "links": [
         {
           "name": "Invite to server",
@@ -480,7 +480,7 @@
     "js": [
       {
         "language": "React",
-        "details": "Out of all frameworks (or libraries) I haver the most professional experience with React having used it to build production ready code like banking software and administrative panels.",
+        "details": "Out of all frameworks (or libraries), I have the most professional experience with React, having used it to build production-ready code such as banking software and administrative panels.",
         "icon": "react",
         "color": [
           "text-blue-500",
@@ -490,7 +490,7 @@
       },
       {
         "language": "Vue",
-        "details": "Vue is my personal go-to framework having used it for a decent amount of admin dashboards and settings panels at work making it my second most used in a professional setting.",
+        "details": "Vue is my personal go-to framework, having used it for a decent amount of admin dashboards and settings panels at work, making it my second most used in a professional setting.",
         "icon": "vuedotjs",
         "color": [
           "text-green-700",
@@ -500,7 +500,7 @@
       },
       {
         "language": "Svelte",
-        "details": "I have also used Svelte in a professional setting for a questioner app. This website also uses it because its' in-build functionalities are everything I need for this kind of quick project.",
+        "details": "I have also used Svelte in a professional setting for a questionnaire app. This website also uses it because its built-in functionalities are everything I need for this kind of quick project.",
         "icon": "svelte",
         "color": [
           "text-orange-500",
@@ -510,7 +510,7 @@
       },
       {
         "language": "Node.js",
-        "details": "Running Javascript on the server is how I started with this language. Node has allowed me to learn and expand my skills like no other tool.",
+        "details": "Running JavaScript on the server is how I started with this language. Node has allowed me to learn and expand my skills like no other tool.",
         "icon": "nodedotjs",
         "color": [
           "text-green-500",
@@ -520,7 +520,7 @@
       },
       {
         "language": "Express.js",
-        "details": "Express was my very first experience with web programming, using e.js I use to create SSR websites. Ive used it to build a literature guide website and my RPS game.",
+        "details": "Express was my very first experience with web programming, using EJS to create SSR websites. I've used it to build a literature guide website and my RPS game.",
         "icon": "express",
         "color": [
           "text-blue-500",
@@ -530,7 +530,7 @@
       },
       {
         "language": "Socket.io",
-        "details": "Altho I have used this tool for a long time, only recently was I able to unlock its' full potential. I really enjoy real time updates and this is my tool of choice.",
+        "details": "Although I have used this tool for a long time, only recently was I able to unlock its full potential. I really enjoy real-time updates, and this is my tool of choice.",
         "icon": "socketdotio",
         "color": [
           "",
@@ -542,7 +542,7 @@
     "other": [
       {
         "language": "MongoDB",
-        "details": "For most of my personal projects I have used Mongo. I like the simplicity of document based databases so this, plus the mongoose package are my tools of choice.",
+        "details": "For most of my personal projects, I have used Mongo. I like the simplicity of document-based databases, so this, plus the Mongoose package, are my tools of choice.",
         "icon": "mongodb",
         "color": [
           "text-green-500",
@@ -552,7 +552,7 @@
       },
       {
         "language": "SQL",
-        "details": "All of the professional applications I have worked with used some flavor of SQL be it Postgres, MySQL or something else.",
+        "details": "All of the professional applications I have worked with used some flavor of SQL, be it Postgres, MySQL, or something else.",
         "icon": "sqlite",
         "color": [
           "text-blue-900",
@@ -562,7 +562,7 @@
       },
       {
         "language": "Linux",
-        "details": "I use linux as my main operating system so I am familiar also comfortable with using the terminal.",
+        "details": "I use Linux as my main operating system, so I am familiar and comfortable with using the terminal.",
         "icon": "debian",
         "color": [
           "text-red-700",
@@ -572,7 +572,7 @@
       },
       {
         "language": "Git",
-        "details": "Git is a part of almost all of my projects, be it for work or not, everything is being version controlled with it. Usually trough GitHub but i have also used GitLab and BitBucket.",
+        "details": "Git is a part of almost all of my projects, be it for work or not; everything is version controlled with it. Usually through GitHub, but I have also used GitLab and BitBucket.",
         "icon": "git",
         "color": [
           "text-orange-600",
@@ -582,7 +582,7 @@
       },
       {
         "language": "Jira",
-        "details": "Along with Jira I am familiar with SCRUM and all the artifacts and ceremonies that come with it. Ive used these tools/methods trough out most of my professional work.",
+        "details": "Along with Jira, I am familiar with SCRUM and all the artifacts and ceremonies that come with it. I've used these tools/methods throughout most of my professional work.",
         "icon": "jira",
         "color": [
           "text-blue-700",
@@ -592,7 +592,7 @@
       },
       {
         "language": "Testing",
-        "details": "Most of the tests I have written are unit tests with Jest. I also have experience with Mocha & Chai, Bun tests and Puppeteer.",
+        "details": "Most of the tests I have written are unit tests with Jest. I also have experience with Mocha & Chai, Bun tests, and Puppeteer.",
         "icon": "jest",
         "color": [
           "text-red-700",
@@ -604,7 +604,7 @@
     "softSkills" : [
       {
         "language": "Team player",
-        "details": "It is easy to work in a team if we all get along so I always strive to get to know everyone and also do my part.",
+        "details": "It is easy to work in a team if we all get along, so I always strive to get to know everyone and also do my part.",
         "color": [
           "text-green-500",
           "border-green-500",
@@ -613,7 +613,7 @@
       },
       {
         "language": "Adaptability",
-        "details": "I find it very easy to adapt to my current situation even if I start from zero. This is true for everything I do, getting to know my colleagues, code, the company.",
+        "details": "I find it very easy to adapt to my current situation, even if I start from zero. This is true for everything I do, getting to know my colleagues, code, and the company.",
         "color": [
           "text-blue-900",
           "border-blue-700",
@@ -622,7 +622,7 @@
       },
       {
         "language": "Communication",
-        "details": "Communication is the most im portent part of any process in life. That is why I value it so highly.",
+        "details": "Communication is the most important part of any process in life. That is why I value it so highly.",
         "color": [
           "text-red-700",
           "border-red-700",
@@ -631,7 +631,7 @@
       },
       {
         "language": "Creativity",
-        "details": "For most solutions we often need creativity. Its a valuable skill to be able to come up with alternative ways of solving problems.",
+        "details": "For most solutions, we often need creativity. It's a valuable skill to be able to come up with alternative ways of solving problems.",
         "color": [
           "text-orange-600",
           "border-orange-600",
