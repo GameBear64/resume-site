@@ -36,8 +36,8 @@
   <div class="bg-neutral-200 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2">
     <h1 use:i18n class="text-3xl font-semibold">Soft Skills</h1>
     <div use:i18n class="max-w-3xl mx-auto my-4">
-      Given my experience in working with others on large projects, I have gained some valuable skills for working in a
-      team with other people.
+      Given my experience in working with others on large projects, I have gained valuable skills for working in a team
+      with other people.
     </div>
     <Skills skillSet={experience.softSkills} />
   </div>

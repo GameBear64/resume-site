@@ -11,7 +11,9 @@
   id="contacts"
   use:inView={{ threshold: 0.4 }}
   on:enter={() => ($location = 'contacts')}
-  on:exit={() => ($location = 'projects')}
+  on:exit={() => {
+    if ($location == 'contacts') $location = 'projects';
+  }}
 >
   <div class="bg-base-m slanted-2 text-center py-12 my-6 md:my-2">
     <!-- <h1 class="text-4xl font-bold">Contacts</h1> -->

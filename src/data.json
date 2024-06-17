@@ -4,7 +4,7 @@
       "title": "Started work at SoftBridge",
       "date": "15-02-2024",
       "icon": "work",
-      "description": "My previous company didn't have much business, so they had to close their doors. I had to find another place to go, and I ended up at this product company developing cool software with cool people."
+      "description": "My previous company didn't have much business, so they had to close their doors. I had to find another place to go and I ended up at this product company, developing cool software with cool people."
     },
     {
       "title": "Finished the SoftUni JS path",
@@ -22,31 +22,31 @@
       "title": "Started work at Balkan Software Studio",
       "date": "15-03-2022",
       "icon": "work",
-      "description": "This was a small local company that allowed me to work on international projects by outsourcing me to bigger teams that would usually be outside of my reach. Here I got to learn the most about what it's like being in a team on a serious project."
+      "description": "This was a small local company that allowed me to work on international projects by outsourcing me to bigger teams that would usually be outside of my reach. There I got to learn the most about what it's like being in a team on a serious project."
     },
     {
       "title": "Started SoftUni",
       "date": "05-06-2021",
       "icon": "school",
-      "description": "I wanted to master JavaScript, so I looked for a place to help me specialize in it, and I started the JS path at SoftUni."
+      "description": "I wanted to master JavaScript, so I looked for a place to help me specialize in it and I started the JS path at SoftUni."
     },
     {
       "title": "Completed a PHP course",
       "date": "30-11-2020",
       "icon": "trophy",
-      "description": "The local dev community had a course for PHP, MySQL, and JS that I attended and completed. It was great because it showed me another language besides JS, and I was also among other developers."
+      "description": "The local dev community had a course for PHP, MySQL, and JS that I attended and completed. It was great because it showed me another language besides JS, as well as being among other developers."
     },
     {
       "title": "Discord Bots",
       "date": "20-11-2018",
       "icon": "supervisor_account",
-      "description": "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. This would later become \"KaoBot\", my very first project that serves people."
+      "description": "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. That is how I created \"KaoBot\", my very first project that serves people."
     },
     {
       "title": "First JS projects",
       "date": "08-04-2018",
       "icon": "trending_up",
-      "description": "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin or change color, or for elements to appear when a button was clicked."
+      "description": "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin, change color or appear when a button was clicked."
     },
     {
       "title": "First coding experience",
@@ -311,7 +311,7 @@
           "color": "bg-black"
         }
       ],
-      "description": "This application was made to solve a simple problem, fast pantone wallpaper generation. I came up with the idea while browsing an image board, and when I shared the idea there, I was met with support, so I made this.",
+      "description": "This application was made to solve a simple problem - fast pantone wallpaper generation. I came up with the idea while browsing an image board, and when I shared the idea there, I was met with support, so I made this.",
       "links": [
         {
           "name": "Visit Page",
@@ -365,7 +365,6 @@
     {
       "name": "Cool Feed",
       "image": "coolfeed",
-      "locked": true,
       "tags": [
         {
           "name": "React",
@@ -437,7 +436,7 @@
           "color": "bg-gray-500"
         }
       ],
-      "description": "After my success with KaoBot's mini-games, I was inspired to make a full game! I decided to make Uno online, but that was a tall task, so I practiced multiplayer, user accounts, scores, game state, and other things I would need with this game."
+      "description": "After my success with KaoBot's mini-games, I was inspired to make a full game! I decided to make Uno online, but that was a tall task, so I practiced multiplayer, user accounts, scores, game state and other things I would need with this game."
     },
     {
       "name": "KaoBot",
@@ -500,7 +499,7 @@
       },
       {
         "language": "Svelte",
-        "details": "I have also used Svelte in a professional setting for a questionnaire app. This website also uses it because its built-in functionalities are everything I need for this kind of quick project.",
+        "details": "I have also used Svelte in a professional setting for a questionnaire app. This website also uses it because it's built-in functionalities are everything I need for this kind of quick project.",
         "icon": "svelte",
         "color": [
           "text-orange-500",
@@ -530,7 +529,7 @@
       },
       {
         "language": "Socket.io",
-        "details": "Although I have used this tool for a long time, only recently was I able to unlock its full potential. I really enjoy real-time updates, and this is my tool of choice.",
+        "details": "Although I have used this tool for a long time, only recently was I able to unlock its' full potential. I really enjoy real-time updates and this is my tool of choice.",
         "icon": "socketdotio",
         "color": [
           "",
@@ -592,7 +591,7 @@
       },
       {
         "language": "Testing",
-        "details": "Most of the tests I have written are unit tests with Jest. I also have experience with Mocha & Chai, Bun tests, and Puppeteer.",
+        "details": "Most of the tests I have written are unit tests with Jest. I also have experience with Mocha & Chai, Bun tests and Puppeteer.",
         "icon": "jest",
         "color": [
           "text-red-700",
@@ -604,7 +603,7 @@
     "softSkills" : [
       {
         "language": "Team player",
-        "details": "It is easy to work in a team if we all get along, so I always strive to get to know everyone and also do my part.",
+        "details": "It is easy to work in a team if we all get along, so I always strive to get to know everyone and do my part.",
         "color": [
           "text-green-500",
           "border-green-500",
@@ -613,7 +612,7 @@
       },
       {
         "language": "Adaptability",
-        "details": "I find it very easy to adapt to my current situation, even if I start from zero. This is true for everything I do, getting to know my colleagues, code, and the company.",
+        "details": "I find it very easy to adapt to the current situation, even if I start from zero. This is true for everything I do - getting to know my colleagues, my code, and the company.",
         "color": [
           "text-blue-900",
           "border-blue-700",

@@ -5,6 +5,8 @@ export const sidebarOpen = writable(false);
 
 export const location = writable(window.location?.hash?.slice(1) || 'header');
 
+location.subscribe(console.log);
+
 export function toggleSideBar() {
   sidebarOpen.update(s => !s);
 }
