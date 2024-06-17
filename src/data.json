@@ -1,0 +1,643 @@
+{
+  "timeline": [
+    {
+      "title": "Started work at SoftBridge",
+      "date": "15-02-2024",
+      "icon": "work",
+      "description": "My previous company didn't have much business so they had to close their doors so I had to find another place to go. I ended up at this product company developing cool software with cool people."
+    },
+    {
+      "title": "Finished the SoftUni JS path",
+      "date": "24-06-2023",
+      "icon": "trophy",
+      "description": "I managed to finish SoftUni with an excellent grade even while working and got certificate for my efforts.",
+      "links": [
+        {
+          "name": "SoftUni JS Certificate",
+          "url": "https://softuni.bg/certificates/details/174956/3cfcef66"
+        }
+      ]
+    },
+    {
+      "title": "Started work at Balkan Software Studio",
+      "date": "15-03-2022",
+      "icon": "work",
+      "description": "This was a small local company that allowed me to work on international projects by outstaring me to bigger teams that would usually be outside of my reach. Here I got to learn the most about what its like being in a team on a serous project."
+    },
+    {
+      "title": "Started SoftUni",
+      "date": "05-06-2021",
+      "icon": "school",
+      "description": "I wanted to master Javascript so I looked for a place to help me specialize in it so I started the JS path at SoftUni."
+    },
+    {
+      "title": "Completed a PHP course",
+      "date": "30-11-2020",
+      "icon": "trophy",
+      "description": "The local dev community had a course for PHP, MYSQL and JS that I attended and completed. It was a great because it showed me another language besides JS and I was also among other developers."
+    },
+    {
+      "title": "Discord Bots",
+      "date": "20-11-2018",
+      "icon": "supervisor_account",
+      "description": "At 16 I started creating scripts for Discord using their API, I had a couple of friends from all around the world helping me learn Javascript. This would later become \"KaoBot\", my very first project that serves people."
+    },
+    {
+      "title": "First JS projects",
+      "date": "08-04-2018",
+      "icon": "trending_up",
+      "description": "Up to now I had created a few HTML and CSS websites but it wasn't enough so I found out about and learned a bit of Javascript, using it to make some elements spin or change color, or for elements to appear when a button was clicked."
+    },
+    {
+      "title": "First coding experience",
+      "date": "22-10-2016",
+      "icon": "star",
+      "description": "I wrote my first ever peace of code at 14. It was a small Ruby text based adventure game. The best part is that I found a video of it.",
+      "links": [
+        {
+          "name": "Embarrassing YouTube Video",
+          "url": "https://youtu.be/IFsPs95cm0o?t=891"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "image": "portfolio",
+      "tags": [
+        {
+          "name": "Svelte",
+          "icon": "svelte",
+          "color": "bg-orange-500"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "tailwindcss",
+          "color": "bg-cyan-500"
+        },
+        {
+          "name": "vercel",
+          "icon": "vercel",
+          "color": "bg-black"
+        }
+      ],
+      "description": "The website you are on right now! I decided it is time to collect all of my knowledge and experiences and display them in a single place. A cental hub for anyone interested in my work.",
+      "links": [
+        {
+          "name": "Visit Site",
+          "url": "https://github.com/GameBear64/Clothes-Shop"
+        },
+        {
+          "name": "View Repo",
+          "url": "https://github.com/GameBear64/Clothes-Shop"
+        }
+      ]
+    },
+    {
+      "name": "Amber Camp",
+      "image": "AC",
+      "locked": true,
+      "tags": [
+        {
+          "name": "React",
+          "icon": "react",
+          "color": "bg-blue-500"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "tailwindcss",
+          "color": "bg-cyan-500"
+        },
+        {
+          "name": "Nano Stores",
+          "color": "bg-black"
+        },
+        {
+          "name": "Express",
+          "icon": "express",
+          "color": "bg-blue-800"
+        },
+        {
+          "name": "Socket.io",
+          "icon": "socketdotio",
+          "color": "bg-black"
+        },
+        {
+          "name": "JWT",
+          "icon": "jsonwebtokens",
+          "color": "bg-neutral-600"
+        },
+        {
+          "name": "JOI Validation",
+          "color": "bg-blue-500"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "mongodb",
+          "color": "bg-green-600"
+        }
+      ],
+      "description": "Real-time chatting application. Separated in two main parts: chatting directly or in groups; answering anonymous questions. This app aims to be a fun text adventure with other people."
+    },
+    {
+      "name": "Stylish Closet",
+      "image": "StylishCloset",
+      "tags": [
+        {
+          "name": "VueJS",
+          "icon": "vuedotjs",
+          "color": "bg-green-500"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "tailwindcss",
+          "color": "bg-cyan-500"
+        },
+        {
+          "name": "Express",
+          "icon": "express",
+          "color": "bg-blue-800"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "mongodb",
+          "color": "bg-green-600"
+        }
+      ],
+      "description": "Simple shopping site made to practice Vue.js and Tailwind. I made it because I felt like it ¯\\_(ツ)_/¯",
+      "links": [
+        {
+          "name": "View Repo",
+          "url": "https://github.com/GameBear64/Clothes-Shop"
+        }
+      ]
+    },
+    {
+      "name": "React Stores Examples",
+      "tags": [
+        {
+          "name": "React",
+          "icon": "react",
+          "color": "bg-blue-500"
+        },
+        {
+          "name": "Nano Stores",
+          "color": "bg-black"
+        },
+        {
+          "name": "Zustand",
+          "color": "bg-orange-800"
+        },
+        {
+          "name": "Redux",
+          "icon": "redux",
+          "color": "bg-purple-500"
+        },
+        {
+          "name": "Jotai",
+          "icon": "ghostery",
+          "color": "bg-neutral-600"
+        },
+        {
+          "name": "MobX",
+          "icon": "mobx",
+          "color": "bg-amber-500"
+        },
+        {
+          "name": "React Context",
+          "icon": "react",
+          "color": "bg-blue-600"
+        },
+        {
+          "name": "Rematch",
+          "color": "bg-blue-900"
+        },
+        {
+          "name": "Recoil",
+          "icon": "recoil",
+          "color": "bg-blue-400"
+        },
+        {
+          "name": "Pinia",
+          "color": "bg-yellow-600"
+        },
+        {
+          "name": "Svelte Store",
+          "icon": "svelte",
+          "color": "bg-orange-500"
+        }
+      ],
+      "description": "I needed to decide which store was the best for another project so I decided to test them all out. In the end I decided to go with \"Nano\".",
+      "links": [
+        {
+          "name": "View Repo",
+          "url": "https://github.com/GameBear64/React-Stores-Examples"
+        }
+      ]
+    },
+    {
+      "name": "Hangman Multiplayer",
+      "image": "hangman",
+      "tags": [
+        {
+          "name": "VueJS",
+          "icon": "vuedotjs",
+          "color": "bg-green-500"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "tailwindcss",
+          "color": "bg-cyan-500"
+        },
+        {
+          "name": "Socket.io",
+          "icon": "socketdotio",
+          "color": "bg-black"
+        }
+      ],
+      "description": "Another practice app. I wanted to check out Vue.js but I decided that I will also check out tailwind and socket.io so I ended up making a game.",
+      "links": [
+        {
+          "name": "View Repo",
+          "url": "https://github.com/GameBear64/hangman"
+        }
+      ]
+    },
+    {
+      "name": "Books downloader",
+      "image": "books",
+      "locked": true,
+      "tags": [
+        {
+          "name": "Puppeteer",
+          "icon": "puppeteer",
+          "color": "bg-teal-500"
+        },
+        {
+          "name": "Terminal Kit",
+          "icon": "windowsterminal",
+          "color": "bg-red-500"
+        },
+        {
+          "name": "FS",
+          "color": "bg-green-500"
+        },
+        {
+          "name": "Aria2",
+          "color": "bg-black"
+        }
+      ],
+      "description": "This downloads books from the Pleven medical shool library (if you have access to it) and assembles them into whole PDF files. For some reason on their website each book is separated into PDFs with 1 page each and each PDF is on a different route. Looking trough the online library is not a fun experience... This app solves this problem."
+    },
+    {
+      "name": "Pantone Wall",
+      "image": "pantone",
+      "locked": true,
+      "tags": [
+        {
+          "name": "Svelte",
+          "icon": "svelte",
+          "color": "bg-orange-500"
+        },
+        {
+          "name": "W3 CSS",
+          "icon": "w3schools",
+          "color": "bg-green-500"
+        },
+        {
+          "name": "vercel",
+          "icon": "vercel",
+          "color": "bg-black"
+        }
+      ],
+      "description": "This application was made to solve a simple problem, fast pantone wallpaper generation. I came up with the idea while bousing an image board, when I shared the idea there I was met with support and so I made this.",
+      "links": [
+        {
+          "name": "Visit Page",
+          "url": "https://pantone-wall.vercel.app/"
+        }
+      ]
+    },
+    {
+      "name": "GamBooru",
+      "image": "gambooru",
+      "tags": [
+        {
+          "name": "Angular",
+          "icon": "angular",
+          "color": "bg-red-500"
+        },
+        {
+          "name": "Typescript",
+          "icon": "typescript",
+          "color": "bg-blue-600"
+        },
+        {
+          "name": "W3 CSS",
+          "icon": "w3schools",
+          "color": "bg-green-500"
+        },
+        {
+          "name": "JWT",
+          "icon": "jsonwebtokens",
+          "color": "bg-neutral-600"
+        },
+        {
+          "name": "Express",
+          "icon": "express",
+          "color": "bg-blue-800"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "mongodb",
+          "color": "bg-green-600"
+        }
+      ],
+      "description": "GamBooru was inspired by the \"booru\" image board concept. This is my SoftUni Angular project for the final exam, I wanted to make something meaningful and fun but also different from all other projects.",
+      "links": [
+        {
+          "name": "View Repo",
+          "url": "https://github.com/GameBear64/GamBooru"
+        }
+      ]
+    },
+    {
+      "name": "Cool Feed",
+      "image": "coolfeed",
+      "locked": true,
+      "tags": [
+        {
+          "name": "React",
+          "icon": "react",
+          "color": "bg-blue-500"
+        },
+        {
+          "name": "MUI",
+          "icon": "mui",
+          "color": "bg-blue-700"
+        },
+        {
+          "name": "Styled components",
+          "icon": "styledcomponents",
+          "color": "bg-pink-500"
+        },
+        {
+          "name": "JWT",
+          "icon": "jsonwebtokens",
+          "color": "bg-neutral-600"
+        },
+        {
+          "name": "Express",
+          "icon": "express",
+          "color": "bg-blue-800"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "mongodb",
+          "color": "bg-green-600"
+        }
+      ],
+      "description": "My first React website. I had to make it for the SoftUni exam so I stuck with something simple and improved on it. This social media clone expands on the traditional concept by adding unlimited likes.",
+      "links": [
+        {
+          "name": "View Repo",
+          "url": "https://github.com/GameBear64/GamBooru"
+        }
+      ]
+    },
+    {
+      "name": "Rock Paper Scissors",
+      "image": "rps",
+      "locked": true,
+      "tags": [
+        {
+          "name": "Express",
+          "icon": "express",
+          "color": "bg-blue-800"
+        },
+        {
+          "name": "ejs",
+          "icon": "ejs",
+          "color": "bg-lime-700"
+        },
+        {
+          "name": "JWT",
+          "icon": "jsonwebtokens",
+          "color": "bg-neutral-600"
+        },
+        {
+          "name": "Socket.io",
+          "icon": "socketdotio",
+          "color": "bg-black"
+        },
+        {
+          "name": "StormDB",
+          "icon": "icloud",
+          "color": "bg-gray-500"
+        }
+      ],
+      "description": "After my success with KaoBot's mini-games I was inspired to make a full game! I decided to make Uno online but that was a tall task so I practiced multilayer, user accounts, scores, game state and other things I would need with this game."
+    },
+    {
+      "name": "KaoBot",
+      "image": "kaobot",
+      "locked": true,
+      "tags": [
+        {
+          "name": "Discord.js",
+          "icon": "discord",
+          "color": "bg-blue-700"
+        },
+        {
+          "name": "canvas",
+          "color": "bg-red-500"
+        },
+        {
+          "name": "Gif encoder",
+          "color": "bg-green-700"
+        },
+        {
+          "name": "glob",
+          "color": "bg-purple-600"
+        },
+        {
+          "name": "StormDB",
+          "icon": "icloud",
+          "color": "bg-gray-500"
+        }
+      ],
+      "description": "This is more or less how I got into Javascript. At first this bot started as simple logging script to help me moderate my community but with time I expanded and added features to it. It soon grew to serve over 400 communities",
+      "links": [
+        {
+          "name": "Invite to server",
+          "url": "https://top.gg/bot/554572149428453388"
+        }
+      ]
+    }
+  ],
+  "experience": {
+    "js": [
+      {
+        "language": "React",
+        "details": "Out of all frameworks (or libraries) I haver the most professional experience with React having used it to build production ready code like banking software and administrative panels.",
+        "icon": "react",
+        "color": [
+          "text-blue-500",
+          "border-blue-500",
+          "bg-blue-500/10"
+        ]
+      },
+      {
+        "language": "Vue",
+        "details": "Vue is my personal go-to framework having used it for a decent amount of admin dashboards and settings panels at work making it my second most used in a professional setting.",
+        "icon": "vuedotjs",
+        "color": [
+          "text-green-700",
+          "border-green-700",
+          "bg-green-700/10"
+        ]
+      },
+      {
+        "language": "Svelte",
+        "details": "I have also used Svelte in a professional setting for a questioner app. This website also uses it because its' in-build functionalities are everything I need for this kind of quick project.",
+        "icon": "svelte",
+        "color": [
+          "text-orange-500",
+          "border-orange-500",
+          "bg-orange-500/10"
+        ]
+      },
+      {
+        "language": "Node.js",
+        "details": "Running Javascript on the server is how I started with this language. Node has allowed me to learn and expand my skills like no other tool.",
+        "icon": "nodedotjs",
+        "color": [
+          "text-green-500",
+          "border-green-500",
+          "bg-green-500/10"
+        ]
+      },
+      {
+        "language": "Express.js",
+        "details": "Express was my very first experience with web programming, using e.js I use to create SSR websites. Ive used it to build a literature guide website and my RPS game.",
+        "icon": "express",
+        "color": [
+          "text-blue-500",
+          "border-blue-500",
+          "bg-blue-500/10"
+        ]
+      },
+      {
+        "language": "Socket.io",
+        "details": "Altho I have used this tool for a long time, only recently was I able to unlock its' full potential. I really enjoy real time updates and this is my tool of choice.",
+        "icon": "socketdotio",
+        "color": [
+          "",
+          "",
+          "bg-black/10"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "language": "MongoDB",
+        "details": "For most of my personal projects I have used Mongo. I like the simplicity of document based databases so this, plus the mongoose package are my tools of choice.",
+        "icon": "mongodb",
+        "color": [
+          "text-green-500",
+          "border-green-500",
+          "bg-green-500/10"
+        ]
+      },
+      {
+        "language": "SQL",
+        "details": "All of the professional applications I have worked with used some flavor of SQL be it Postgres, MySQL or something else.",
+        "icon": "sqlite",
+        "color": [
+          "text-blue-900",
+          "border-blue-700",
+          "bg-blue-700/10"
+        ]
+      },
+      {
+        "language": "Linux",
+        "details": "I use linux as my main operating system so I am familiar also comfortable with using the terminal.",
+        "icon": "debian",
+        "color": [
+          "text-red-700",
+          "border-red-700",
+          "bg-red-700/10"
+        ]
+      },
+      {
+        "language": "Git",
+        "details": "Git is a part of almost all of my projects, be it for work or not, everything is being version controlled with it. Usually trough GitHub but i have also used GitLab and BitBucket.",
+        "icon": "git",
+        "color": [
+          "text-orange-600",
+          "border-orange-600",
+          "bg-orange-600/10"
+        ]
+      },
+      {
+        "language": "Jira",
+        "details": "Along with Jira I am familiar with SCRUM and all the artifacts and ceremonies that come with it. Ive used these tools/methods trough out most of my professional work.",
+        "icon": "jira",
+        "color": [
+          "text-blue-700",
+          "border-blue-700",
+          "bg-blue-600/10"
+        ]
+      },
+      {
+        "language": "Testing",
+        "details": "Most of the tests I have written are unit tests with Jest. I also have experience with Mocha & Chai, Bun tests and Puppeteer.",
+        "icon": "jest",
+        "color": [
+          "text-red-700",
+          "border-red-600",
+          "bg-red-400/10"
+        ]
+      }
+    ],
+    "softSkills" : [
+      {
+        "language": "Team player",
+        "details": "It is easy to work in a team if we all get along so I always strive to get to know everyone and also do my part.",
+        "color": [
+          "text-green-500",
+          "border-green-500",
+          "bg-green-500/10"
+        ]
+      },
+      {
+        "language": "Adaptability",
+        "details": "I find it very easy to adapt to my current situation even if I start from zero. This is true for everything I do, getting to know my colleagues, code, the company.",
+        "color": [
+          "text-blue-900",
+          "border-blue-700",
+          "bg-blue-700/10"
+        ]
+      },
+      {
+        "language": "Communication",
+        "details": "Communication is the most im portent part of any process in life. That is why I value it so highly.",
+        "color": [
+          "text-red-700",
+          "border-red-700",
+          "bg-red-700/10"
+        ]
+      },
+      {
+        "language": "Creativity",
+        "details": "For most solutions we often need creativity. Its a valuable skill to be able to come up with alternative ways of solving problems.",
+        "color": [
+          "text-orange-600",
+          "border-orange-600",
+          "bg-orange-600/10"
+        ]
+      }
+    ]
+  }
+}

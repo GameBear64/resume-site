@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+*::-webkit-scrollbar { 
+  display: none;
+}
+
+@layer base {
+  /* works only if theme is applied to the body */
+  body {
+    @apply bg-base;
+  }
+
+  .material-symbols-rounded {
+    font-variation-settings: 'FILL' 1;
+  }
+
+  pre {
+    @apply bg-gray-800 p-2 font-code text-green-500 my-2 whitespace-break-spaces;
+  }
+
+  hr {
+    @apply my-2 border-b border-primary;
+  }
+
+  [type="checkbox"] {
+    @apply w-11 h-0 cursor-pointer inline-block focus:outline-0 border-0 focus:ring-offset-transparent focus:ring-transparent focus-within:ring-0 focus:shadow-none;
+    
+    @apply after:absolute before:absolute after:top-0 before:top-0 after:block before:inline-block before:rounded-full after:rounded-full after:content-[''] after:w-5 after:h-5 after:mt-0.5 after:ml-0.5 after:shadow-md before:content-[''] before:w-10 before:h-full before:shadow-[inset_0_0_#000] after:bg-white before:bg-base-s before:checked:bg-primary checked:after:translate-x-4;
+
+    @apply after:duration-300 before:duration-300 before:checked:duration-300 checked:after:duration-300;
+
+    @apply disabled:after:bg-opacity-75 disabled:cursor-not-allowed disabled:checked:before:bg-opacity-40;
+  }
+
+  /* CREDIT */
+  /* https://svelte.dev/repl/a4682e449f0a4478aa4a24a804d9fe7c?version=3.38.2 */
+  .tooltip {
+    @apply whitespace-nowrap relative pt-2 cursor-help;
+  }
+
+  #tooltip {
+    @apply absolute bottom-[125%] right-1/2 translate-x-1/2 py-1 px-2 bg-base-x text-txtPrimary text-sm rounded drop-shadow-md w-max;
+  }
+
+  .tooltip #tooltip::before {
+    @apply absolute top-full left-1/2 -translate-x-1/2 w-4 h-2 bg-inherit;
+    content: '';
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  }
+
+}
+
+@layer components {
+  .btn {
+    @apply rounded-md border border-transparent bg-primary md:px-2 md:py-1 p-1 md:text-lg font-semibold text-white hover:bg-primary-shade focus:outline-none active:translate-y-0.5 transition-transform;
+  }
+
+  .reject-btn {
+    @apply btn bg-red-600 hover:bg-red-700;
+  }
+
+  .accept-btn {
+    @apply btn bg-green-600 hover:bg-green-700;
+  }
+
+  .info-btn {
+    @apply btn bg-cyan-600 hover:bg-cyan-700;
+  }
+
+  .favorite-btn {
+    @apply btn bg-pink-600 hover:bg-pink-700;
+  }
+
+  .disabled-btn {
+    @apply btn bg-neutral-600 hover:bg-neutral-700;
+  }
+
+  .nav-btn {
+    @apply relative px-1.5 py-3 flex items-center space-x-4 justify-start text-icon rounded-lg;
+  }
+
+  .input {
+    @apply rounded bg-base-m text-txtPrimary h-10 px-2 w-full border border-base-s hover:border-primary focus:border-primary focus:outline-none;
+  }
+
+  .soft-input {
+    @apply my-4 h-10 w-full rounded-lg bg-base-m px-5 text-sm text-txtPrimary focus:outline-none md:max-w-md;
+  }
+
+  .input-error {
+    @apply input border-2 border-red-600;
+  }
+
+  .accent-circle {
+    @apply flex h-10 w-10 items-center justify-center rounded-full;
+  }
+
+  .card {
+    @apply block p-3 md:p-6 rounded-lg shadow-lg bg-base-m border border-neutral-500/30
+  }
+}
+
+@layer utilities {
+  .shadow-primary {
+    @apply shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)];
+  }
+
+  .active-visual {
+    @apply active:translate-y-0.5 transition-transform
+  }
+}
+
+.theme-orange {
+  --color-primary-50: theme('colors.orange.50');
+  --color-primary-100: theme('colors.orange.100');
+  --color-primary-200: theme('colors.orange.200');
+  --color-primary-300: theme('colors.orange.300');
+  --color-primary-400: theme('colors.orange.400');
+  --color-primary-500: theme('colors.orange.500');
+  --color-primary-600: theme('colors.orange.600');
+  --color-primary-700: theme('colors.orange.700');
+  --color-primary-800: theme('colors.orange.800');
+  --color-primary-900: theme('colors.orange.900');
+}
+
+.theme-red {
+  --color-primary-50: theme('colors.red.50');
+  --color-primary-100: theme('colors.red.100');
+  --color-primary-200: theme('colors.red.200');
+  --color-primary-300: theme('colors.red.300');
+  --color-primary-400: theme('colors.red.400');
+  --color-primary-500: theme('colors.red.500');
+  --color-primary-600: theme('colors.red.600');
+  --color-primary-700: theme('colors.red.700');
+  --color-primary-800: theme('colors.red.800');
+  --color-primary-900: theme('colors.red.900');
+}
+
+.theme-green {
+  --color-primary-50: theme('colors.lime.100');
+  --color-primary-100: theme('colors.lime.200');
+  --color-primary-200: theme('colors.lime.300');
+  --color-primary-300: theme('colors.lime.400');
+  --color-primary-400: theme('colors.lime.500');
+  --color-primary-500: theme('colors.lime.600');
+  --color-primary-600: theme('colors.lime.700');
+  --color-primary-700: theme('colors.lime.800');
+  --color-primary-800: theme('colors.lime.900');
+  --color-primary-900: theme('colors.lime.950');
+}
+
+.theme-blue {
+  --color-primary-50: theme('colors.blue.50');
+  --color-primary-100: theme('colors.blue.100');
+  --color-primary-200: theme('colors.blue.200');
+  --color-primary-300: theme('colors.blue.300');
+  --color-primary-400: theme('colors.blue.400');
+  --color-primary-500: theme('colors.blue.500');
+  --color-primary-600: theme('colors.blue.600');
+  --color-primary-700: theme('colors.blue.700');
+  --color-primary-800: theme('colors.blue.800');
+  --color-primary-900: theme('colors.blue.900');
+}
+
+.theme-violet {
+  --color-primary-50: theme('colors.violet.50');
+  --color-primary-100: theme('colors.violet.100');
+  --color-primary-200: theme('colors.violet.200');
+  --color-primary-300: theme('colors.violet.300');
+  --color-primary-400: theme('colors.violet.400');
+  --color-primary-500: theme('colors.violet.500');
+  --color-primary-600: theme('colors.violet.600');
+  --color-primary-700: theme('colors.violet.700');
+  --color-primary-800: theme('colors.violet.800');
+  --color-primary-900: theme('colors.violet.900');
+}
+
+.theme-pink {
+  --color-primary-50: theme('colors.pink.50');
+  --color-primary-100: theme('colors.pink.100');
+  --color-primary-200: theme('colors.pink.200');
+  --color-primary-300: theme('colors.pink.300');
+  --color-primary-400: theme('colors.pink.400');
+  --color-primary-500: theme('colors.pink.500');
+  --color-primary-600: theme('colors.pink.600');
+  --color-primary-700: theme('colors.pink.700');
+  --color-primary-800: theme('colors.pink.800');
+  --color-primary-900: theme('colors.pink.900');
+}
+
+.theme-light {
+  --base-x: theme('colors.white');
+  --base: theme('colors.neutral.50');
+  --base-m: theme('colors.neutral.200');
+  --base-s: theme('colors.neutral.300');
+  --base-xs: theme('colors.neutral.500');
+  --txtPrimary: theme('colors.neutral.800');
+  --txtSecondary: theme('colors.neutral.600');
+  --primary-more: var(--color-primary-700);
+  --primary-shade: var(--color-primary-600);
+  --primary: var(--color-primary-500);
+  --primary-less: var(--color-primary-300);
+}
+
+.theme-dark {
+  --base-x: theme('colors.neutral.900');
+  --base: theme('colors.neutral.800');
+  --base-m: theme('colors.neutral.700');
+  --base-s: theme('colors.neutral.600');
+  --base-xs: theme('colors.neutral.400');
+  --txtPrimary: theme('colors.white');
+  --txtSecondary: theme('colors.neutral.300');
+  --primary-more: var(--color-primary-300);
+  --primary: var(--color-primary-500);
+  --primary-shade: var(--color-primary-600);
+  --primary-less: var(--color-primary-700);
+}
