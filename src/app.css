@@ -202,9 +202,8 @@
   --base: theme('colors.neutral.50');
   --base-m: theme('colors.neutral.200');
   --base-s: theme('colors.neutral.300');
-  --base-xs: theme('colors.neutral.500');
   --txtPrimary: theme('colors.neutral.800');
-  --txtSecondary: theme('colors.neutral.600');
+  --txtSecondary: theme('colors.neutral.500');
   --primary-more: var(--color-primary-700);
   --primary-shade: var(--color-primary-600);
   --primary: var(--color-primary-500);
@@ -216,9 +215,8 @@
   --base: theme('colors.neutral.800');
   --base-m: theme('colors.neutral.700');
   --base-s: theme('colors.neutral.600');
-  --base-xs: theme('colors.neutral.400');
   --txtPrimary: theme('colors.white');
-  --txtSecondary: theme('colors.neutral.300');
+  --txtSecondary: theme('colors.neutral.400');
   --primary-more: var(--color-primary-300);
   --primary: var(--color-primary-500);
   --primary-shade: var(--color-primary-600);

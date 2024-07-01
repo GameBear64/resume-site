@@ -16,7 +16,6 @@ export default {
         base: 'var(--base)',
         'base-m': 'var(--base-m)',
         'base-s': 'var(--base-s)',
-        'base-xs': 'var(--base-xs)',
         txtPrimary: 'var(--txtPrimary)',
         txtSecondary: 'var(--txtSecondary)',
         'primary-more': 'var(--primary-more)',

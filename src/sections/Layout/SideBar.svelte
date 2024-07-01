@@ -65,7 +65,9 @@
       </div>
       <div class="my-10">
         <h3 use:i18n class="my-1 text-xl font-semibold">Splash screen</h3>
-        <p use:i18n>The splash screen appears only once per hour to avoid annoyance. Turn that timer off here.</p>
+        <p use:i18n class="text-txtSecondary text-sm">
+          The splash screen appears only once per hour, turn that timer off here.
+        </p>
         <label for="timer" class="h-6 relative inline-block my-1">
           <input id="timer" type="checkbox" bind:checked={$preferences.splashTimer} />
           <span use:i18n>Timer</span>
