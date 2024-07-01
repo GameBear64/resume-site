@@ -16,8 +16,6 @@
       <a href="#projects" class:border-b={$location == 'projects'}><Icon clickable>handyman</Icon></a>
       <a href="#contacts" class:border-b={$location == 'contacts'}><Icon clickable>contact_support</Icon></a>
     </div>
-  </div>
-  <div class="flex gap-6">
     <div class="hidden md:flex gap-6">
       <a use:i18n class="active-visual" href="#header" class:border-b={$location == 'header'}>Header</a>
       <a use:i18n class="active-visual" href="#skills" class:border-b={$location == 'skills'}>Skills</a>
@@ -25,6 +23,8 @@
       <a use:i18n class="active-visual" href="#projects" class:border-b={$location == 'projects'}>Projects</a>
       <a use:i18n class="active-visual" href="#contacts" class:border-b={$location == 'contacts'}>Contacts</a>
     </div>
+  </div>
+  <div class="flex gap-6">
     <Icon clickable on:click={toggleSideBar} class="mx-2">settings</Icon>
   </div>
 </nav>
