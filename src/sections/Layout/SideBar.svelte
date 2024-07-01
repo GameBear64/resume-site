@@ -30,7 +30,7 @@
   <div transition:fade class="fixed inset-0 bg-stone-700 bg-opacity-50 z-50" on:click|self={toggleSideBar}></div>
   <div
     transition:fly={{ x: 100 }}
-    class="bg-base fixed inset-y-0 right-0 p-4 md:p-10 max-w-md w-screen flex justify-between flex-col z-50"
+    class="bg-base fixed inset-y-0 right-0 p-4 md:p-10 max-w-md w-screen flex justify-between flex-col z-50 overflow-scroll"
   >
     <div>
       <div class="w-full flex justify-end">
