@@ -61,7 +61,7 @@
 
 @layer components {
   .btn {
-    @apply rounded-md border border-transparent bg-primary md:px-2 md:py-1 p-1 md:text-lg font-semibold text-white hover:bg-primary-shade focus:outline-none active:translate-y-0.5 transition-transform;
+    @apply rounded-md border border-transparent bg-primary md:px-2 md:py-1 p-1 md:text-lg font-semibold text-white hover:bg-primary-shade focus:outline-none active:translate-y-0.5 flex items-center transition;
   }
 
   .reject-btn {

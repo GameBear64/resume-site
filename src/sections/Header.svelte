@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
 
   import Contacts from '@components/Contacts.svelte';
+  import Icon from '@components/Icon.svelte';
 
   import i18n from '@utils/i18n';
   import inView from '@utils/inView';
@@ -28,8 +29,13 @@
   <div class="flex justify-center items-center text-center h-full">
     <div class="flex flex-col items-center">
       <h1 use:i18n class="text-6xl font-semibold">Vladimir Petrov</h1>
-      <span use:i18n class="my-4"> Aspiring software developer, eager to learn and expand my skills.</span>
+      <span use:i18n class="my-4"> Aspiring software developer, eager to learn and expand my skills. </span>
       <Contacts {animate} />
+      <div class="my-4 z-10">
+        <a href="./vladimir-resume.pdf" target="_blank">
+          <button class="btn">PDF Resume <Icon class="ml-2 text-lg">arrow_forward_ios</Icon></button>
+        </a>
+      </div>
     </div>
   </div>
 </div>

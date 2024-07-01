@@ -7,10 +7,11 @@
 
   const links = [
     { icon: 'linkedin', url: 'https://www.linkedin.com/in/vladimir-d-petrov/', hover: 'hover:text-blue-500' },
+    { icon: 'mastodon', url: 'https://mastodon.social/@gamriel', hover: 'hover:text-purple-500' },
+    { icon: 'x', url: 'https://x.com/GamBar64', hover: 'hover:text-blue-400' },
     { icon: 'github', url: 'https://github.com/GameBear64', hover: 'hover:text-gray-500' },
     { icon: 'steam', url: 'https://steamcommunity.com/id/GameBear/', hover: 'hover:text-indigo-500' },
     { icon: 'gmail', url: 'mailto:vlpetrov02@gamil.com', hover: 'hover:text-red-400' },
-    { icon: 'adobeacrobatreader', url: './vladimir-resume.pdf', hover: 'hover:text-red-500' },
   ];
 </script>
 
@@ -18,7 +19,7 @@
   {#if animate}
     {#each links as link, i}
       <a
-        class={`inline-block mx-4 active-visual ${link.hover} transition`}
+        class={`inline-block mx-4 active-visual ${link.hover}`}
         in:fly|global={{
           y: 100,
           delay: 300 * i,
@@ -27,7 +28,7 @@
         href={link.url}
         target="_blank"
       >
-        <Icon class={`si-${link?.icon}`} />
+        <Icon class={`si-${link?.icon} transition`} />
       </a>
     {/each}
   {:else}
