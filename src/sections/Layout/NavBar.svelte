@@ -6,7 +6,7 @@
   import i18n from '@utils/i18n';
 </script>
 
-<nav class="flex justify-between p-3 md:px-10 border-b sticky top-0 w-full bg-base z-10 font-semibold">
+<nav class="flex justify-between p-3 md:px-10 border-b sticky top-0 w-full bg-base z-20 font-semibold">
   <!-- <div>{$location}</div> -->
   <div>
     <div class="flex md:hidden gap-6">
