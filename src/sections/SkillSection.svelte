@@ -10,10 +10,13 @@
   export let experience;
   export let numberOfProjects;
 
-  let animateJS = false;
-  let animateCSharp = false;
-  let animateTools = false;
-  let animateSkills = false;
+  // NOTE: mobile browsers handle animations weirdly
+  let width = document.defaultView.innerWidth;
+
+  let animateJS = width <= 768;
+  let animateCSharp = width <= 768;
+  let animateTools = width <= 768;
+  let animateSkills = width <= 768;
 </script>
 
 <div id="skills" use:inView={{ threshold: 0.2 }} on:enter={() => ($location = 'skills')}>
