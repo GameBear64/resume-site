@@ -61,6 +61,8 @@
         <select class="input" bind:value={$preferences.language}>
           <option use:i18n value="en">English</option>
           <option use:i18n value="bg">Bulgarian</option>
+          <option use:i18n value="de">German</option>
+          <option use:i18n value="jp">Japanese</option>
         </select>
       </div>
       <div class="my-10">

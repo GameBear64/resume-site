@@ -6,8 +6,7 @@ import translations from './translations.json';
 export const locale = get(preferences).language;
 
 // Translations:
-// 0: bg
-const locales = ['bg'];
+const locales = ['bg', 'de', 'jp'];
 
 // function approach
 export const t = derived(
@@ -19,19 +18,16 @@ export const t = derived(
 export default function i18n(node) {
   node.originalText = node.innerText;
   preferences.subscribe(({ language }) => {
-    if (language == 'en') {
-      node.innerText = node?.originalText || node.innerText;
-    } else {
-      const translation = translations?.[node.innerText]?.[locales.indexOf(language)];
-      if (!translation && node.innerText.split(' ').length > 3) {
-        console.info(
-          'No translation for',
-          node.innerText,
-          'add it to the translations like this \n',
-          `"${node.innerText}": [""]`
-        );
-      }
-      node.innerText = translation || node.innerText;
+    const translation = translations?.[node.originalText]?.[locales.indexOf(language)];
+
+    if (!translation && node.innerText.split(' ').length > 3) {
+      console.info(
+        'No translation for',
+        node.innerText,
+        'add it to the translations like this \n',
+        `"${node.innerText}": [""]`
+      );
     }
+    node.innerText = translation || node?.originalText || node.innerText;
   });
 }

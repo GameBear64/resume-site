@@ -1,140 +1,212 @@
 {
-  "Settings": ["Настройки"],
-  "Theme": ["Тема"],
-  "Accent": ["Акцент"],
-  "Language": ["Език"],
-  "Bulgarian": ["Български"],
-  "English": ["Английски"],
-  "Splash screen": ["Начален екран"],
+  "Settings": ["Настройки", "Einstellungen", "設定"],
+  "Theme": ["Тема", "Thema", "テーマ"],
+  "Accent": ["Акцент", "Akzent", "アクセント"],
+  "Language": ["Език", "Sprache", "言語"],
+  "Bulgarian": ["Български", "Bulgarisch", "ブルガリア語"],
+  "English": ["Английски", "Englisch", "英語"],
+  "German": ["Немски", "Deutsch", "ドイツ語"],
+  "Japanese": ["Японски", "Japanisch", "日本語"],
+  "Splash screen": ["Начален екран", "Startbildschirm", "スプラッシュスクリーン"],
   "The splash screen appears only once per hour, turn that timer off here.": [
-    "Началният екран се показва само веднъж на час. Изключете този таймер тук."
+    "Началният екран се показва само веднъж на час. Изключете този таймер тук.",
+    "Der Startbildschirm erscheint nur einmal pro Stunde. Schalten Sie diesen Timer hier aus.",
+    "スプラッシュスクリーンは1時間に1回しか表示されません。このタイマーをここでオフにしてください。"
   ],
-  "Bulgaria, Vratsa": ["България, Враца"],
-  "Timer": ["Таймер"],
-  "Vladimir Petrov": ["Владимир Петров"],
+  "Bulgaria, Vratsa": ["България, Враца", "Bulgarien, Vratsa", "ブルガリア、ヴラツァ"],
+  "Timer": ["Таймер", "Timer", "タイマー"],
+  "Vladimir Petrov": ["Владимир Петров", "Vladimir Petrov", "ウラジミール・ペトロフ"],
   "Software developer, eager to learn and expand my skills.": [
-    "Софтуерен разработчик с желание да развие и разшири уменията си."
+    "Софтуерен разработчик с желание да развие и разшири уменията си.",
+    "Softwareentwickler, bestrebt zu lernen und meine Fähigkeiten zu erweitern.",
+    "スキルを学び、広げたいと熱望するソフトウェア開発者です。"
   ],
-  "years of learning": ["години на учене"],
-  "featured personal projects": ["лични проекти"],
-  "motivated and ready": ["мотивиран и готов"],
+  "years of learning": ["години на учене", "Jahre des Lernens", "学びの年数"],
+  "featured personal projects": ["лични проекти", "ausgewählte persönliche Projekte", "注目の個人プロジェクト"],
+  "motivated and ready": ["мотивиран и готов", "motiviert und bereit", "やる気があり、準備ができている"],
   "Started learning C# in SoftUni on 13-05-2024. Stay tuned for updates!": [
-    "Започнах да уча C# в SoftUni на 13-05-2024. Очаквайте новини!"
+    "Започнах да уча C# в SoftUni на 13-05-2024. Очаквайте новини!",
+    "Ich habe am 13-05-2024 bei SoftUni begonnen, C# zu lernen. Bleiben Sie dran für Updates!",
+    "2024年5月13日にSoftUniでC#の学習を開始しました。更新をお待ちください！"
   ],
-  "Tools": ["Инструменти"],
-  "Soft Skills": ["Социални умения"],
-  "Team player": ["Отборен играч"],
-  "Adaptability": ["Адаптивност"],
-  "Communication": ["Комуникация"],
-  "Creativity": ["Креативност"],
-  "Started work at SoftBridge": ["Започнах работа в SoftBridge"],
-  "My previous company didn't have much business, so they had to close their doors. I had to find another place to go and I ended up at this product company, developing cool software with cool people.": [
-    "Предишната ми компания нямаше много бизнес, така че трябваше да затворят вратите си. Трябваше да намеря друго място и се озовах в тази продуктова компания, разработвайки готин софтуер с готини хора."
+  "Tools": ["Инструменти", "Werkzeuge", "ツール"],
+  "Soft Skills": ["Социални умения", "Soft Skills", "ソフトスキル"],
+  "Team player": ["Отборен играч", "Teamplayer", "チームプレーヤー"],
+  "Adaptability": ["Адаптивност", "Anpassungsfähigkeit", "適応性"],
+  "Communication": ["Комуникация", "Kommunikation", "コミュニケーション"],
+  "Creativity": ["Креативност", "Kreativität", "創造性"],
+  "Started work at SoftBridge": [
+    "Започнах работа в SoftBridge",
+    "Begann bei SoftBridge zu arbeiten",
+    "SoftBridgeでの仕事を始めました"
   ],
-  "Finished the SoftUni JS path": ["Завърших JS пътеката в SoftUni"],
+  "Finished the SoftUni JS path": [
+    "Завърших JS пътеката в SoftUni",
+    "Habe den SoftUni-JS-Pfad abgeschlossen",
+    "SoftUniのJSパスを修了しました"
+  ],
   "I managed to finish SoftUni with an excellent grade even while working, and I got a certificate for my efforts.": [
-    "Успях да завърша SoftUni с отличен успех, дори докато работех, и получих сертификат за усилията си."
+    "Успях да завърша SoftUni с отличен успех, дори докато работех, и получих сертификат за усилията си.",
+    "Ich habe es geschafft, SoftUni mit einer ausgezeichneten Note abzuschließen, auch während ich arbeitete, und erhielt ein Zertifikat für meine Bemühungen.",
+    "働きながらもSoftUniを優秀な成績で修了し、その努力に対して証明書を取得しました。"
   ],
-  "SoftUni JS Certificate": ["Сертификат за JS от SoftUni"],
-  "Started work at Balkan Software Studio": ["Започнах работа в Balkan Software Studio"],
-  "This was a small local company that allowed me to work on international projects by outsourcing me to bigger teams that would usually be outside of my reach. There I got to learn the most about what it's like being in a team on a serious project.": [
-    "Това беше малка местна компания, която ми позволи да работя по международни проекти, като ме изпращаше на по-големи екипи, които обикновено биха били извън моето достижение. Тук научих най-много за това какво е да бъдеш в екип на сериозен проект."
+  "SoftUni JS Certificate": ["Сертификат за JS от SoftUni", "SoftUni JS-Zertifikat", "SoftUni JS証明書"],
+  "Started work at Balkan Software Studio": [
+    "Започнах работа в Balkan Software Studio",
+    "Begann bei Balkan Software Studio zu arbeiten",
+    "バルカンソフトウェアスタジオでの仕事を始めました"
   ],
-  "Started SoftUni": ["Започнах SoftUni"],
-  "I wanted to master JavaScript, so I looked for a place to help me specialize in it and I started the JS path at SoftUni.": [
-    "Исках да овладея JavaScript, затова търсих място, което да ми помогне да се специализирам в него, и започнах JS пътеката в SoftUni."
-  ],
-  "Completed a PHP course": ["Завърших курс по PHP"],
+  "Completed a PHP course": ["Завърших курс по PHP", "PHP-Kurs abgeschlossen", "PHPコースを修了しました"],
   "The local dev community had a course for PHP, MySQL, and JS that I attended and completed. It was great because it showed me another language besides JS, as well as being among other developers.": [
-    "Местната общност на разработчиците имаше курс по PHP, MySQL и JS, който посетих и завърших. Беше страхотно, защото ми показа друг език освен JS, и също така бях сред други разработчици."
+    "Местната общност на разработчиците имаше курс по PHP, MySQL и JS, който посетих и завърших. Беше страхотно, защото ми показа друг език освен JS, и също така бях сред други разработчици.",
+    "Die lokale Entwicklergemeinschaft bot einen Kurs für PHP, MySQL und JS an, den ich besuchte und abschloss. Es war großartig, weil ich dadurch eine andere Sprache als JS kennenlernte und unter anderen Entwicklern war.",
+    "地元の開発コミュニティでは、PHP、MySQL、JSのコースがあり、私は参加して修了しました。JS以外の言語を学べたこと、他の開発者と一緒にいられたことが素晴らしかったです。"
   ],
-  "Discord Bots": ["Discord Ботове"],
+  "Discord Bots": ["Discord Ботове", "Discord-Bots", "Discordボット"],
   "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. That is how I created \"KaoBot\", my very first project that serves people.": [
-    "На 16 години започнах да създавам скриптове за Discord, използвайки техния API. Имах няколко приятели от цял свят, които ми помагаха да науча JavaScript. Tака създадох \"KaoBot\", първият ми проект, който служи на хората."
+    "На 16 години започнах да създавам скриптове за Discord, използвайки техния API. Имах няколко приятели от цял свят, които ми помагаха да науча JavaScript. Tака създадох \"KaoBot\", първият ми проект, който служи на хората.",
+    "Mit 16 Jahren begann ich, Skripte für Discord mit deren API zu erstellen. Ich hatte ein paar Freunde aus der ganzen Welt, die mir halfen, JavaScript zu lernen. So entstand mein allererstes Projekt \"KaoBot\", das Menschen dient.",
+    "16歳の時、DiscordのAPIを使ってスクリプトを作成し始めました。世界中の友人たちが私にJavaScriptを学ぶ手助けをしてくれました。これが、私の最初のプロジェクトである「KaoBot」を作成したきっかけです。"
   ],
-  "First JS projects": ["Първи JS проекти"],
+  "First JS projects": ["Първи JS проекти", "Erste JS-Projekte", "最初のJSプロジェクト"],
   "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin, change color or appear when a button was clicked.": [
-    "До момента бях създал няколко уебсайта с HTML и CSS, но това не беше достатъчно. Така че открих и научих малко JavaScript, използвайки го, за да накарам някои елементи да се въртят или променят цвят, или за да се появяват елементи, когато се натисне бутон."
+    "До момента бях създал няколко уебсайта с HTML и CSS, но това не беше достатъчно. Така че открих и научих малко JavaScript, използвайки го, за да накарам някои елементи да се въртят или променят цвят, или за да се появяват елементи, когато се натисне бутон.",
+    "Bis jetzt hatte ich ein paar HTML- und CSS-Websites erstellt, aber das war nicht genug. Also lernte ich ein wenig JavaScript, um einige Elemente zu drehen, die Farbe zu ändern oder erscheinen zu lassen, wenn ein Button gedrückt wird.",
+    "これまでに、いくつかのHTMLとCSSのウェブサイトを作成しましたが、それでは十分ではありませんでした。それで、少しJavaScriptを学び、要素を回転させたり、色を変更したり、ボタンがクリックされたときに要素が表示されるようにしました。"
   ],
-  "First coding experience": ["Първи опит с кодиране"],
+  "First coding experience": ["Първи опит с кодиране", "Erste Programmiererfahrung", "初めてのコーディング経験"],
   "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game.": [
-    "Написах първия си код на 14 години. Това беше малка текстова приключенска игра на Ruby."
+    "Написах първия си код на 14 години. Това беше малка текстова приключенска игра на Ruby.",
+    "Ich schrieb mein erstes Stück Code mit 14 Jahren. Es war ein kleines textbasiertes Abenteuer-Spiel in Ruby.",
+    "14歳の時に初めてコードを書きました。それは小さなRubyのテキストベースのアドベンチャーゲームでした。"
   ],
-  "Embarrassing YouTube Video": ["YouTube видео"],
   "The website you are on right now! I decided it is time to collect all of my knowledge and experiences and display them in a single place. A central hub for anyone interested in my work.": [
-    "Уебсайтът, на който се намирате в момента! Реших, че е време да събера всичките си знания и опит и да ги представя на едно място. Централно място за всеки, който се интересува от моята работа."
+    "Уебсайтът, на който се намирате в момента! Реших, че е време да събера всичките си знания и опит и да ги представя на едно място. Централно място за всеки, който се интересува от моята работа.",
+    "Die Website, auf der Sie sich gerade befinden! Ich habe beschlossen, alle meine Kenntnisse und Erfahrungen an einem Ort zu sammeln. Ein zentraler Knotenpunkt für alle, die an meiner Arbeit interessiert sind.",
+    "今あなたがいるウェブサイトです！私はすべての知識と経験を集めて、一つの場所に表示する時が来たと決めました。私の仕事に興味がある人のための中心的なハブです。"
   ],
-  "Visit Site": ["Посетете сайта"],
-  "View Repo": ["Вижте репото"],
+  "Visit Site": ["Посетете сайта", "Website besuchen", "サイトを訪れる"],
+  "View Repo": ["Вижте репото", "Repository anzeigen", "リポジトリを表示"],
   "Real-time chatting application. Separated into two main parts: chatting directly or in groups; answering anonymous questions. This app aims to be a fun text adventure with other people.": [
-    "Приложение за чат в реално време. Разделено на две основни части: чат директно или в групи; отговаряне на анонимни въпроси. Това приложение цели да бъде забавно текстово приключение с други хора."
+    "Приложение за чат в реално време. Разделено на две основни части: чат директно или в групи; отговаряне на анонимни въпроси. Това приложение цели да бъде забавно текстово приключение с други хора.",
+    "Echtzeit-Chat-Anwendung. In zwei Hauptteile unterteilt: Direkt- oder Gruppenchats; anonyme Fragen beantworten. Diese App soll ein unterhaltsames Textabenteuer mit anderen sein.",
+    "リアルタイムチャットアプリケーション。直接チャットまたはグループチャットに分かれている; 匿名の質問に答える。このアプリは他の人との楽しいテキストアドベンチャーを目指しています。"
   ],
   "Simple shopping site made to practice Vue.js and Tailwind. I made it because I felt like it ¯\\_(ツ)_/¯": [
-    "Прост сайт за пазаруване, създаден за да упражня Vue.js и Tailwind. Направих го, защото така ми се искаше ¯\\_(ツ)_/¯"
+    "Прост сайт за пазаруване, създаден за да упражня Vue.js и Tailwind. Направих го, защото така ми се искаше ¯\\_(ツ)_/¯",
+    "Einfache Einkaufsseite, erstellt, um Vue.js und Tailwind zu üben. Ich habe es gemacht, weil mir danach war ¯\\_(ツ)_/¯",
+    "Vue.jsとTailwindを練習するために作成したシンプルなショッピングサイト。気が向いたので作りました ¯\\_(ツ)_/¯"
   ],
   "I needed to decide which store was the best for another project, so I decided to test them all out. In the end, I decided to go with \"Nano\".": [
-    "Трябваше да реша кой магазин е най-добър за друг проект, затова реших да ги изпробвам всичките. В крайна сметка реших да избера \"Nano\"."
+    "Трябваше да реша кой магазин е най-добър за друг проект, затова реших да ги изпробвам всичките. В крайна сметка реших да избера \"Nano\".",
+    "Ich musste entscheiden, welcher Store für ein anderes Projekt am besten war, also testete ich sie alle aus. Am Ende entschied ich mich für \"Nano\".",
+    "別のプロジェクトに最適なストアを決定する必要があったので、すべてを試すことにしました。最終的に「Nano」に決めました。"
   ],
   "Another practice app. I wanted to check out Vue.js, but I decided that I will also check out Tailwind and Socket.io, so I ended up making a game.": [
-    "Още едно приложение за практика. Исках да разгледам Vue.js, но реших, че ще разгледам също Tailwind и Socket.io, така че в крайна сметка направих игра."
+    "Още едно приложение за практика. Исках да разгледам Vue.js, но реших, че ще разгледам също Tailwind и Socket.io, така че в крайна сметка направих игра.",
+    "Noch eine Übungs-App. Ich wollte Vue.js ausprobieren, aber entschied mich auch, Tailwind und Socket.io zu testen, und habe letztendlich ein Spiel gemacht.",
+    "もう一つの練習アプリ。Vue.jsを試したかったのですが、TailwindとSocket.ioも試すことに決めたので、最終的にゲームを作りました。"
   ],
   "This downloads books from the Pleven medical school library (if you have access to it) and assembles them into whole PDF files. For some reason, on their website, each book is separated into PDFs with 1 page each, and each PDF is on a different route. Looking through the online library is not a fun experience... This app solves this problem.": [
-    "Това приложение изтегля книги от библиотеката на Медицински университет Плевен (ако имате достъп до нея) и ги сглобява в цели PDF файлове. По някаква причина на техния уебсайт всяка книга е разделена на PDF файлове с по една страница и всеки PDF е на различен път. Преглеждането на онлайн библиотеката не е приятно изживяване... Това приложение решава този проблем."
+    "Това приложение изтегля книги от библиотеката на Медицински университет Плевен (ако имате достъп до нея) и ги сглобява в цели PDF файлове. По някаква причина на техния уебсайт всяка книга е разделена на PDF файлове с по една страница и всеки PDF е на различен път. Преглеждането на онлайн библиотеката не е приятно изживяване... Това приложение решава този проблем.",
+    "Diese Anwendung lädt Bücher aus der Bibliothek der medizinischen Universität Pleven herunter (falls Sie darauf zugreifen können) und fügt sie zu vollständigen PDF-Dateien zusammen. Aus irgendeinem Grund ist auf deren Website jedes Buch in PDFs mit je einer Seite aufgeteilt, und jedes PDF befindet sich auf einer anderen Route. Das Durchsuchen der Online-Bibliothek ist keine angenehme Erfahrung... Diese App löst dieses Problem.",
+    "このアプリは、プレヴェン医科大学の図書館から書籍をダウンロードし（アクセスがある場合）、それらを完全なPDFファイルにまとめます。なぜか、彼らのウェブサイトでは、各書籍が1ページずつのPDFに分かれていて、各PDFが異なるルートにあります。オンライン図書館を閲覧するのは楽しい体験ではありません... このアプリはその問題を解決します。"
   ],
   "This application was made to solve a simple problem - fast pantone wallpaper generation. I came up with the idea while browsing an image board, and when I shared the idea there, I was met with support, so I made this.": [
-    "Това приложение е създадено за решаване на прост проблем, бързо генериране на пантон тапети. Дойде ми идеята докато разглеждах изображение на табло, и когато споделих идеята там, получих подкрепа, така че го направих."
+    "Това приложение е създадено за решаване на прост проблем, бързо генериране на пантон тапети. Дойде ми идеята докато разглеждах изображение на табло, и когато споделих идеята там, получих подкрепа, така че го направих.",
+    "Diese Anwendung wurde entwickelt, um ein einfaches Problem zu lösen – die schnelle Erstellung von Pantone-Hintergrundbildern. Die Idee kam mir, als ich ein Imageboard durchsuchte, и als ich die Idee dort teilte, erhielt ich Unterstützung, така че го направих.",
+    "このアプリケーションは、単純な問題を解決するために作成されました - 高速なパントン壁紙の生成。イメージボードを閲覧しているときにこのアイデアを思いつき、そこでアイデアを共有するとサポートを受けたので、これを作成しました。"
   ],
   "GamBooru was inspired by the \"booru\" image board concept. This is my SoftUni Angular project for the final exam. I wanted to make something meaningful and fun but also different from all other projects.": [
-    "GamBooru е вдъхновен от концепцията на \"booru\" табло с изображения. Това е моят проект на SoftUni Angular за финалния изпит. Исках да направя нещо смислено и забавно, но също така различно от всички други проекти."
+    "GamBooru е вдъхновен от концепцията на \"booru\" табло с изображения. Това е моят проект на SoftUni Angular за финалния изпит. Исках да направя нещо смислено и забавно, но също така различно от всички други проекти.",
+    "GamBooru wurde von der „booru“-Imageboard-Konzept inspiriert. Dies ist mein SoftUni Angular-Projekt für die Abschlussprüfung. Ich wollte etwas Bedeutendes und Spaßiges machen, но също така различно от всички други проекти.",
+    "GamBooruは「booru」イメージボードの概念に触発されました。これは、最終試験のための私のSoftUni Angularプロジェクトです。意味のある楽しいものを作りたかったのですが、他のすべてのプロジェクトとは異なるものも作りたかったです。"
   ],
   "My first React website. I had to make it for the SoftUni exam, so I stuck with something simple and improved on it. This social media clone expands on the traditional concept by adding unlimited likes.": [
-    "Моят първи уебсайт с React. Трябваше да го направя за изпита на SoftUni, така че се придържах към нещо просто и го подобрих. Този клонинг на социална мрежа разширява традиционната концепция чрез добавяне на неограничени харесвания."
+    "Моят първи уебсайт с React. Трябваше да го направя за изпита на SoftUni, така че се придържах към нещо просто и го подобрих. Този клонинг на социална мрежа разширява традиционната концепция чрез добавяне на неограничени харесвания.",
+    "Meine erste React-Website. Ich musste es für die SoftUni-Prüfung machen, така че се придържах към нещо просто и го подобрих. Този клонинг на социална мрежа разширява традиционната концепция чрез добавяне на неограничени харесвания.",
+    "私の最初のReactウェブサイトです。SoftUniの試験のために作らなければならなかったので、シンプルなものにこだわり、それを改善しました。このソーシャルメディアクローンは、無制限の「いいね」を追加することによって従来の概念を拡張します。"
   ],
   "After my success with KaoBot's mini-games, I was inspired to make a full game! I decided to make Uno online, but that was a tall task, so I practiced multiplayer, user accounts, scores, game state and other things I would need with this game.": [
-    "След успеха ми с мини-игрите на KaoBot, бях вдъхновен да направя пълна игра! Реших да направя Uno онлайн, но това беше голяма задача, така че упражних мултиплеър, потребителски акаунти, резултати, състояние на играта и други неща, които биха ми трябвали за тази игра."
+    "След успеха ми с мини-игрите на KaoBot, бях вдъхновен да направя пълна игра! Реших да направя Uno онлайн, но това беше голяма задача, така че упражних мултиплеър, потребителски акаунти, резултати, състояние на играта и други неща, които биха ми трябвали за тази игра.",
+    "Nach meinem Erfolg с KaoBots Minispielen wurde ich inspiriert, ein vollständiges Spiel zu erstellen! Ich entschied mich, Uno online zu machen, но это была большая задача, поэтому я практиковал мультиплеер, учетные записи пользователей, баллы, состояние игры и другие вещи, которые мне понадобятся для этой игры.",
+    "KaoBotのミニゲームでの成功を受けて、フルゲームを作ろうと思い立ちました！オンラインでUnoを作ることに決めましたが、これは大きな仕事でした。そこで、マルチプレイヤー、ユーザーアカウント、スコア、ゲーム状態、そしてこのゲームに必要な他のことを練習しました。"
   ],
   "This is more or less how I got into JavaScript. At first, this bot started as a simple logging script to help me moderate my community, but with time I expanded and added features to it. It soon grew to serve over 400 communities.": [
-    "Това е повече или по-малко как влязох в JavaScript. В началото този бот започна като прост скрипт за логване, за да ми помогне да модерирам моята общност, но с времето го разширих и добавих функции към него. Скоро той стана да обслужва над 400 общности"
+    "Това е повече или по-малко как влязох в JavaScript. В началото този бот започна като прост скрипт за логване, за да ми помогне да модерирам моята общност, но с времето го разширих и добавих функции към него. Скоро той стана да обслужва над 400 общности.",
+    "So kam ich mehr oder weniger zu JavaScript. Zunächst begann dieser Bot като просто протоколиране, за да ми помогне да модерирам моята общност, но с времето го разширих и добавих функции към него. Скоро той стана да обслужва над 400 общности.",
+    "これが私がJavaScriptに入ったきっかけです。最初、このボットはコミュニティのモデレートを助けるためのシンプルなロギングスクリプトとして始まりましたが、時間が経つにつれて拡張し、機能を追加しました。すぐに400以上のコミュニティにサービスを提供するようになりました。"
   ],
-  "...and many other smaller ones!": ["...и много други по-малки!"],
-  "The story so far:": ["Моята историята досега:"],
-  "Show more": ["Покажи повече"],
-  "Welcome!": ["Добре дошли!"],
-  "Header": ["Начало"],
-  "Skills": ["Умения"],
-  "Projects": ["Проекти"],
-  "Journey": ["История"],
-  "Contacts": ["Контакти"],
-
-  "Just started here :D": ["Току-що започна тук :D"],
-  "CFM - Software developer": ["CFM - Софтуерен разработчик"],
+  "...and many other smaller ones!": [
+    "...и много други по-малки!",
+    "...und viele andere kleinere!",
+    "...そして他にもたくさんの小さなものがあります！"
+  ],
+  "The story so far:": ["Моята историята досега:", "Die Geschichte bisher:", "これまでのストーリー:"],
+  "Show more": ["Покажи повече", "Mehr anzeigen", "もっと見る"],
+  "Welcome!": ["Добре дошли!", "Willkommen!", "ようこそ！"],
+  "Header": ["Начало", "Kopfzeile", "ヘッダー"],
+  "Skills": ["Умения", "Fähigkeiten", "スキル"],
+  "Projects": ["Проекти", "Projekte", "プロジェクト"],
+  "Journey": ["История", "Reise", "旅"],
+  "Contacts": ["Контакти", "Kontakte", "連絡先"],
+  "Just started here :D": ["Току-що започна тук :D", "Gerade hier angefangen :D", "ここで始めたばかりです :D"],
+  "CFM - Software developer": ["CFM - Софтуерен разработчик", "CFM - Softwareentwickler", "CFM - ソフトウェア開発者"],
   "Used Vue 3 exclusively to build and maintain a website for document storage.": [
-    "Използваше Vue 3 за създаване и поддръжка на уебсайт за съхранение на документи."
+    "Използваше Vue 3 за създаване и поддръжка на уебсайт за съхранение на документи.",
+    "Verwendete ausschließlich Vue 3, um eine Website zur Dokumentenspeicherung zu erstellen und zu warten.",
+    "ドキュメントストレージ用のウェブサイトを構築および維持するために、Vue 3を専用で使用しました。"
   ],
   "Designed pages and components using Vuetify, Tailwind and CSS to craft visually appealing animations and responsive user interfaces on both desktop and mobile.": [
-    "Проектирах страници и компоненти с Vuetify, Tailwind и CSS за създаване на визуално привлекателни анимации и адаптивни интерфейси за настолни и мобилни устройства."
+    "Проектирах страници и компоненти с Vuetify, Tailwind и CSS за създаване на визуално привлекателни анимации и адаптивни интерфейси за настолни и мобилни устройства.",
+    "Entwarf Seiten und Komponenten mit Vuetify, Tailwind und CSS, um visuell ansprechende Animationen und responsive Benutzeroberflächen für Desktop und Mobilgeräte zu erstellen.",
+    "Vuetify、Tailwind、およびCSSを使用して、デスクトップとモバイルの両方で視覚的に魅力的なアニメーションとレスポンシブユーザーインターフェイスを作成するためにページとコンポーネントを設計しました。"
   ],
   "Developed tables, charts and other visualizations within dashboards to effectively display information for both users and administrators.": [
-    "Разработени таблици, графики и други визуализации в табла за ефективно показване на информация за потребители и администратори."
+    "Разработени таблици, графики и други визуализации в табла за ефективно показване на информация за потребители и администратори.",
+    "Entwickelte Tabellen, Diagramme und andere Visualisierungen innerhalb von Dashboards, um Informationen für Benutzer und Administratoren effektiv darzustellen.",
+    "ダッシュボード内でテーブル、チャート、その他の視覚化を開発し、ユーザーと管理者の両方に対して情報を効果的に表示しました。"
   ],
-  "SoftBridge - Software developer": ["SoftBridge - Софтуерен разработчик"],
+  "SoftBridge - Software developer": [
+    "SoftBridge - Софтуерен разработчик",
+    "SoftBridge - Softwareentwickler",
+    "SoftBridge - ソフトウェア開発者"
+  ],
   "Worked with big international teams consisting of 10+ people to build and maintain a large scale banking app featuring over 50 different interactive pages.": [
-    "Работих в големи международни екипи с над 10 души за изграждане и поддръжка на мащабно банково приложение с над 50 различни интерактивни страници."
+    "Работих в големи международни екипи с над 10 души за изграждане и поддръжка на мащабно банково приложение с над 50 различни интерактивни страници.",
+    "Arbeitete mit großen internationalen Teams von über 10 Personen zusammen, um eine groß angelegte Banking-App mit über 50 verschiedenen interaktiven Seiten zu erstellen und zu warten.",
+    "10人以上の大規模な国際チームと協力して、50以上の異なるインタラクティブなページを持つ大規模な銀行アプリを構築および維持しました。"
   ],
   "Also worked on smaller projects (Google analytics tool; Questionnaire app) Accommodated to the SCRUM style of work over the course of 3 projects using a variety of technologies. (React, Vue, Svelte)": [
-    "Работил съм и по по-малки проекти (инструмент за Google Analytics; приложение за въпросници). Приспособен съм към SCRUM стила на работа в продължение на 3 проекта, използвайки различни технологии (React, Vue, Svelte)."
+    "Работил съм и по по-малки проекти (инструмент за Google Analytics; приложение за въпросници). Приспособен съм към SCRUM стила на работа в продължение на 3 проекта, използвайки различни технологии (React, Vue, Svelte).",
+    "Arbeitete auch an kleineren Projekten (Google Analytics-Tool; Fragebogen-App). Anpasste mich an den SCRUM-Arbeitsstil im Laufe von 3 Projekten unter Verwendung verschiedener Technologien (React, Vue, Svelte).",
+    "小規模プロジェクト（Googleアナリティクスツール、アンケートアプリ）にも取り組み、3つのプロジェクトでSCRUMスタイルの作業に適応し、さまざまな技術（React、Vue、Svelte）を使用しました。"
   ],
   "Collaborated with designers and senior developers while also mentoring interns and juniors.": [
-    "Сътрудничих с дизайнери и старши разработчици, като също така наставлявах стажанти и младши разработчици."
+    "Сътрудничих с дизайнери и старши разработчици, като също така наставлявах стажанти и младши разработчици.",
+    "Zusammenarbeitete mit Designern und Senior-Entwicklern und mentorierte gleichzeitig Praktikanten und Junior-Entwickler.",
+    "デザイナーやシニア開発者と協力しながら、インターンやジュニアを指導しました。"
   ],
-  "Balkan Software Studio - Software developer": ["Balkan Software Studio - Софтуерен разработчик"],
-  "Stronger together": ["По-силни заедно"],
-  "I love the challenge": ["Обичам предизвикателствата"],
-  "Listening, feedback, discussion": ["Слушане и обратна връзка"],
-  "It is an art form": ["Това е форма на изкуство"],
-  "Work ethic": ["Работна етика"],
-  "Work hard, play hard": ["Работи и се забавлявай усилено"],
-  "Experience": ["Опит"],
-  "Professional": ["Професионален"],
-  "Personal": ["Личен"]
+  "Balkan Software Studio - Software developer": [
+    "Balkan Software Studio - Софтуерен разработчик",
+    "Balkan Software Studio - Softwareentwickler",
+    "Balkan Software Studio - ソフトウェア開発者"
+  ],
+  "Stronger together": ["По-силни заедно", "Stärker zusammen", "一緒に強く"],
+  "I love the challenge": ["Обичам предизвикателствата", "Ich liebe die Herausforderung", "挑戦が大好きです"],
+  "Listening, feedback, discussion": [
+    "Слушане и обратна връзка",
+    "Zuhören, Feedback, Diskussion",
+    "聞くこと、フィードバック、議論"
+  ],
+  "It is an art form": ["Това е форма на изкуство", "Es ist eine Kunstform", "それは芸術の形です"],
+  "Work ethic": ["Работна етика", "Arbeitsmoral", "仕事倫理"],
+  "Work hard, play hard": [
+    "Работи и се забавлявай усилено",
+    "Hart arbeiten, hart spielen",
+    "一生懸命働き、一生懸命遊ぶ"
+  ],
+  "Experience": ["Опит", "Erfahrung", "経験"],
+  "Professional": ["Професионален", "Professionell", "プロフェッショナル"],
+  "Personal": ["Личен", "Persönlich", "個人的な"]
 }
