@@ -23,7 +23,7 @@ export default function i18n(node) {
       node.innerText = node?.originalText || node.innerText;
     } else {
       const translation = translations?.[node.innerText]?.[locales.indexOf(language)];
-      if (!translation && node.innerText.split(' ').length > 1) {
+      if (!translation && node.innerText.split(' ').length > 3) {
         console.info(
           'No translation for',
           node.innerText,
