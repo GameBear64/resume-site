@@ -1,64 +1,116 @@
 {
-  "timeline": [
+  "timeline": {
+    "professional": [
+      {
+        "title": "CFM - Software developer",
+        "date": 1730422800000,
+        "points": ["Just started here :D"],
+        "technologies": []
+      },
+      {
+        "title": "SoftBridge - Software developer",
+        "date": 1708300800000,
+        "end": 1729209600000,
+        "points": [
+          "Used Vue 3 exclusively to build and maintain a website for document storage.",
+          "Designed pages and components using Vuetify, Tailwind and CSS to craft visually appealing animations and responsive user interfaces on both desktop and mobile.",
+          "Developed tables, charts and other visualizations within dashboards to effectively display information for both users and administrators."
+        ],
+        "technologies": ["Vue.js", "Inertia.js", "Material UI (Vuetify)", "Chart.js", "Tailwind"]
+      },
+      {
+        "title": "Balkan Software Studio - Software developer",
+        "date": 1647216000000,
+        "end": 1700524800000,
+        "points": [
+          "Worked with big international teams consisting of 10+ people to build and maintain a large scale banking app featuring over 50 different interactive pages.",
+          "Also worked on smaller projects (Google analytics tool; Questionnaire app) Accommodated to the SCRUM style of work over the course of 3 projects using a variety of technologies. (React, Vue, Svelte)",
+          "Collaborated with designers and senior developers while also mentoring interns and juniors."
+        ],
+        "technologies": ["NodeJS", "React.js", "React Hook Form", "Vue.js", "Feathers.js", "Material UI", "Bootstrap"]
+      }
+    ],
+    "personal": [
+      {
+        "title": "Finished the SoftUni JS path",
+        "date": 1631660400000,
+        "end": 1687561200000,
+        "points": [
+          "I managed to finish SoftUni with an excellent grade even while working, and I got a certificate for my efforts."
+        ],
+        "technologies": [
+          "JS Fundamentals",
+          "JS Advanced",
+          "JS Applications",
+          "JS Back-end",
+          "React",
+          "Angular",
+          "Vue",
+          "MySQL",
+          "System and Network Compromising"
+        ],
+        "links": [
+          {
+            "name": "SoftUni JS Certificate",
+            "url": "https://softuni.bg/certificates/details/174956/3cfcef66"
+          }
+        ]
+      },
+      {
+        "title": "Completed a PHP course",
+        "date": 1575072000000,
+        "end": 1606694400000,
+        "points": [
+          "The local dev community had a course for PHP, MySQL, and JS that I attended and completed. It was great because it showed me another language besides JS, as well as being among other developers."
+        ],
+        "technologies": ["PHP", "CSS", "JavaScript"]
+      },
+      {
+        "title": "Discord Bots",
+        "date": 1542672000000,
+        "points": [
+          "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. That is how I created \"KaoBot\", my very first project that serves people."
+        ],
+        "technologies": ["Discord", "JavaScript", "Canvas"]
+      },
+      {
+        "title": "First JS projects",
+        "date": 1523142000000,
+        "points": [
+          "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin, change color or appear when a button was clicked."
+        ]
+      },
+      {
+        "title": "First coding experience",
+        "date": 1476572400000,
+        "points": ["I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game."]
+      }
+    ]
+  },
+  "work": [
     {
-      "title": "Started work at SoftBridge",
-      "date": "15-02-2024",
-      "icon": "work",
-      "description": "My previous company didn't have much business, so they had to close their doors. I had to find another place to go and I ended up at this product company, developing cool software with cool people."
-    },
-    {
-      "title": "Finished the SoftUni JS path",
-      "date": "24-06-2023",
-      "icon": "trophy",
-      "description": "I managed to finish SoftUni with an excellent grade even while working, and I got a certificate for my efforts.",
-      "links": [
-        {
-          "name": "SoftUni JS Certificate",
-          "url": "https://softuni.bg/certificates/details/174956/3cfcef66"
-        }
-      ]
-    },
-    {
-      "title": "Started work at Balkan Software Studio",
-      "date": "15-03-2022",
-      "icon": "work",
-      "description": "This was a small local company that allowed me to work on international projects by outsourcing me to bigger teams that would usually be outside of my reach. There I got to learn the most about what it's like being in a team on a serious project."
-    },
-    {
-      "title": "Started SoftUni",
-      "date": "05-06-2021",
-      "icon": "school",
-      "description": "I wanted to master JavaScript, so I looked for a place to help me specialize in it and I started the JS path at SoftUni."
-    },
-    {
-      "title": "Completed a PHP course",
-      "date": "30-11-2020",
-      "icon": "trophy",
-      "description": "The local dev community had a course for PHP, MySQL, and JS that I attended and completed. It was great because it showed me another language besides JS, as well as being among other developers."
-    },
-    {
-      "title": "Discord Bots",
-      "date": "20-11-2018",
-      "icon": "supervisor_account",
-      "description": "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. That is how I created \"KaoBot\", my very first project that serves people."
-    },
-    {
-      "title": "First JS projects",
-      "date": "08-04-2018",
-      "icon": "trending_up",
-      "description": "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin, change color or appear when a button was clicked."
+      "title": "First coding experience",
+      "date": "22-10-2016",
+      "icon": "star",
+      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it."
     },
     {
       "title": "First coding experience",
       "date": "22-10-2016",
       "icon": "star",
-      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it.",
-      "links": [
-        {
-          "name": "Embarrassing YouTube Video",
-          "url": "https://youtu.be/IFsPs95cm0o?t=891"
-        }
-      ]
+      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it."
+    },
+    {
+      "title": "First coding experience",
+      "date": "22-10-2016",
+      "icon": "star",
+      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it."
+    },
+    {
+      "title": "First coding experience",
+      "date": "22-10-2016",
+      "icon": "star",
+      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it."
     }
   ],
   "projects": [
@@ -126,7 +178,7 @@
         {
           "name": "JWT",
           "icon": "jsonwebtokens",
-          "color": "bg-neutral-600"
+          "color": "bg-purple-600"
         },
         {
           "name": "JOI Validation",
@@ -175,6 +227,7 @@
     },
     {
       "name": "React Stores Examples",
+      "image": "rse",
       "tags": [
         {
           "name": "React",
@@ -479,163 +532,109 @@
     "js": [
       {
         "language": "React",
-        "details": "Out of all frameworks (or libraries), I have the most professional experience with React, having used it to build production-ready code such as banking software and administrative panels.",
-        "icon": "react",
-        "color": [
-          "text-blue-500",
-          "border-blue-500",
-          "bg-blue-500/10"
-        ]
+        "details": "Front-end library",
+        "icon": "si-react",
+        "color": ["text-blue-400", "bg-blue-400/20"]
       },
       {
         "language": "Vue",
-        "details": "Vue is my personal go-to framework, having used it for a decent amount of admin dashboards and settings panels at work, making it my second most used in a professional setting.",
-        "icon": "vuedotjs",
-        "color": [
-          "text-green-700",
-          "border-green-700",
-          "bg-green-700/10"
-        ]
+        "details": "Front-end framework",
+        "icon": "si-vuedotjs",
+        "color": ["text-green-500", "bg-green-500/20"]
       },
       {
         "language": "Svelte",
-        "details": "I have also used Svelte in a professional setting for a questionnaire app. This website also uses it because it's built-in functionalities are everything I need for this kind of quick project.",
-        "icon": "svelte",
-        "color": [
-          "text-orange-500",
-          "border-orange-500",
-          "bg-orange-500/10"
-        ]
+        "details": "Front-end framework",
+        "icon": "si-svelte",
+        "color": ["text-orange-500", "bg-orange-500/20"]
       },
       {
         "language": "Node.js",
-        "details": "Running JavaScript on the server is how I started with this language. Node has allowed me to learn and expand my skills like no other tool.",
-        "icon": "nodedotjs",
-        "color": [
-          "text-green-500",
-          "border-green-500",
-          "bg-green-500/10"
-        ]
+        "details": "Runtime environment",
+        "icon": "si-nodedotjs",
+        "color": ["text-green-500", "bg-green-500/20"]
       },
       {
         "language": "Express.js",
-        "details": "Express was my very first experience with web programming, using EJS to create SSR websites. I've used it to build a literature guide website and my RPS game.",
-        "icon": "express",
-        "color": [
-          "text-blue-500",
-          "border-blue-500",
-          "bg-blue-500/10"
-        ]
+        "details": "Back-end framework",
+        "icon": "si-express",
+        "color": ["text-blue-400", "bg-blue-600/20"]
       },
       {
         "language": "Socket.io",
-        "details": "Although I have used this tool for a long time, only recently was I able to unlock its' full potential. I really enjoy real-time updates and this is my tool of choice.",
-        "icon": "socketdotio",
-        "color": [
-          "",
-          "",
-          "bg-black/10"
-        ]
+        "details": "Real-time communication library",
+        "icon": "si-socketdotio",
+        "color": ["text-white", "bg-neutral-900/50"]
       }
     ],
     "other": [
       {
         "language": "MongoDB",
-        "details": "For most of my personal projects, I have used Mongo. I like the simplicity of document-based databases, so this, plus the Mongoose package, are my tools of choice.",
-        "icon": "mongodb",
-        "color": [
-          "text-green-500",
-          "border-green-500",
-          "bg-green-500/10"
-        ]
+        "details": "Document-oriented database",
+        "icon": "si-mongodb",
+        "color": ["text-green-500", "bg-green-500/20"]
       },
       {
         "language": "SQL",
-        "details": "All of the professional applications I have worked with used some flavor of SQL, be it Postgres, MySQL, or something else.",
-        "icon": "sqlite",
-        "color": [
-          "text-blue-900",
-          "border-blue-700",
-          "bg-blue-700/10"
-        ]
+        "details": "Structured Query Language",
+        "icon": "si-sqlite",
+        "color": ["text-blue-500", "bg-blue-600/20"]
       },
       {
         "language": "Linux",
-        "details": "I use Linux as my main operating system, so I am familiar and comfortable with using the terminal.",
-        "icon": "debian",
-        "color": [
-          "text-red-700",
-          "border-red-700",
-          "bg-red-700/10"
-        ]
+        "details": "Operating system",
+        "icon": "si-debian",
+        "color": ["text-red-600", "bg-red-700/20"]
       },
       {
         "language": "Git",
-        "details": "Git is a part of almost all of my projects, be it for work or not; everything is version controlled with it. Usually through GitHub, but I have also used GitLab and BitBucket.",
-        "icon": "git",
-        "color": [
-          "text-orange-600",
-          "border-orange-600",
-          "bg-orange-600/10"
-        ]
+        "details": "Distributed version control",
+        "icon": "si-git",
+        "color": ["text-orange-600", "bg-orange-600/20"]
       },
       {
-        "language": "Jira",
-        "details": "Along with Jira, I am familiar with SCRUM and all the artifacts and ceremonies that come with it. I've used these tools/methods throughout most of my professional work.",
-        "icon": "jira",
-        "color": [
-          "text-blue-700",
-          "border-blue-700",
-          "bg-blue-600/10"
-        ]
+        "language": "Tailwind",
+        "details": "CSS framework",
+        "icon": "si-tailwindcss",
+        "color": ["text-blue-400", "bg-blue-400/20"]
       },
       {
         "language": "Testing",
-        "details": "Most of the tests I have written are unit tests with Jest. I also have experience with Mocha & Chai, Bun tests and Puppeteer.",
-        "icon": "jest",
-        "color": [
-          "text-red-700",
-          "border-red-600",
-          "bg-red-400/10"
-        ]
+        "details": "JavaScript testing framework",
+        "icon": "si-jest",
+        "color": ["text-red-500", "bg-red-500/20"]
       }
     ],
-    "softSkills" : [
+    "softSkills": [
       {
         "language": "Team player",
-        "details": "It is easy to work in a team if we all get along, so I always strive to get to know everyone and do my part.",
-        "color": [
-          "text-green-500",
-          "border-green-500",
-          "bg-green-500/10"
-        ]
+        "details": "Stronger together",
+        "icon": "groups",
+        "color": ["text-green-500", "bg-green-500/20"]
       },
       {
         "language": "Adaptability",
-        "details": "I find it very easy to adapt to the current situation, even if I start from zero. This is true for everything I do - getting to know my colleagues, my code, and the company.",
-        "color": [
-          "text-blue-900",
-          "border-blue-700",
-          "bg-blue-700/10"
-        ]
+        "details": "I love the challenge",
+        "icon": "bolt",
+        "color": ["text-blue-500", "bg-blue-500/20"]
       },
       {
         "language": "Communication",
-        "details": "Communication is the most important part of any process in life. That is why I value it so highly.",
-        "color": [
-          "text-red-700",
-          "border-red-700",
-          "bg-red-700/10"
-        ]
+        "details": "Listening, feedback, discussion",
+        "icon": "voice_selection",
+        "color": ["text-red-500", "bg-red-500/20"]
       },
       {
         "language": "Creativity",
-        "details": "For most solutions, we often need creativity. It's a valuable skill to be able to come up with alternative ways of solving problems.",
-        "color": [
-          "text-orange-600",
-          "border-orange-600",
-          "bg-orange-600/10"
-        ]
+        "details": "It is an art form",
+        "icon": "draw",
+        "color": ["text-orange-500", "bg-orange-500/20"]
+      },
+      {
+        "language": "Work ethic",
+        "details": "Work hard, play hard",
+        "icon": "work",
+        "color": ["text-white", "bg-neutral-900/50"]
       }
     ]
   }

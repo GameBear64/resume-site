@@ -8,7 +8,7 @@
   export let numberOfProjects;
 
   const settings = {
-    duration: 3000,
+    duration: 4000,
     easing: cubicOut,
     // don't ask
     interpolate: (a, b) => t => Math.round(a + t * (b - a)),

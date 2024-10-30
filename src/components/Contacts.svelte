@@ -15,11 +15,11 @@
   ];
 </script>
 
-<div class="flex my-4">
+<div class="flex my-4 gap-8">
   {#if animate}
     {#each links as link, i}
       <a
-        class={`inline-block mx-4 active-visual ${link.hover}`}
+        class={`inline-block active-visual ${link.hover}`}
         in:fly|global={{
           y: 100,
           delay: 300 * i,

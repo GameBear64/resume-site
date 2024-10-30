@@ -16,7 +16,7 @@
   let hover = false;
 </script>
 
-<div class="card w-full h-full max-w-xl shrink-0">
+<div class="card w-full h-full max-w-xl">
   <div class="flex justify-between">
     <h2 class="text-xl font-bold">{name}</h2>
     {#if locked}
@@ -27,17 +27,31 @@
   </div>
   {#if image}
     <div class="relative flex justify-center">
-      <img
-        class="my-4"
-        alt="The project logo"
-        src={`./${image}.png`}
-        on:focus={() => (hover = true)}
-        on:mouseover={() => (hover = true)}
-      />
+      <div class="my-4 bg-base-m overflow-hidden aspect-video">
+        <img
+          class="aspect-video object-cover transition duration-500"
+          class:scale-110={hover}
+          class:rotate-1={hover}
+          alt="The project logo"
+          src={`./${image}.png`}
+          on:focus={() => (hover = true)}
+          on:mouseover={() => (hover = true)}
+        />
+      </div>
+      {#if hover && locked && links.length == 0}
+        <div
+          transition:blur
+          class="absolute top-0 size-full flex gap-4 justify-center items-center bg-neutral-700/80 text-2xl"
+          on:mouseleave={() => (hover = false)}
+        >
+          <Icon class="text-red-500">lock</Icon>
+          <p class="text-red-500 font-semibold">Source not available</p>
+        </div>
+      {/if}
       {#if hover && links.length > 0}
         <div
           transition:blur
-          class="absolute top-0 size-full flex gap-4 justify-center items-center bg-stone-700/50"
+          class="absolute top-0 size-full flex gap-4 justify-center items-center bg-neutral-700/60"
           on:mouseleave={() => (hover = false)}
         >
           {#each links as link}

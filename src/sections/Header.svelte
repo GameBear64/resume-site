@@ -19,24 +19,34 @@
 
 <div
   id="header"
-  class="h-[95vh] overflow-hidden"
-  use:inView={{ threshold: 0.4 }}
+  class="h-[95vh] overflow-hidden relative"
+  use:inView={{ threshold: 0.6 }}
   on:enter={() => ($location = 'header')}
 >
   <div id="stars" class="opacity-50"></div>
   <div id="stars2" class="opacity-50"></div>
   <div id="stars3" class="opacity-50"></div>
   <div class="flex justify-center items-center text-center h-full">
-    <div class="flex flex-col items-center">
-      <h1 use:i18n class="text-6xl font-semibold">Vladimir Petrov</h1>
-      <span use:i18n class="my-4"> Aspiring software developer, eager to learn and expand my skills. </span>
-      <Contacts {animate} />
-      <div class="my-4 z-10">
+    <div class="flex flex-col md:flex-row gap-10 text-left z-10 mx-4">
+      <img class="size-60 rounded-lg mx-auto" alt="Head-shot" src={`./profile.jpg`} />
+      <div class="flex-1 flex flex-col justify-between">
+        <div>
+          <h1 use:i18n class="text-4xl md:text-6xl font-semibold">Vladimir Petrov</h1>
+          <p class="my-1"><Icon hollow>location_on</Icon> <span use:i18n>Bulgaria, Vratsa</span></p>
+          <p class="my-4" use:i18n>Software developer, eager to learn and expand my skills.</p>
+          <Contacts {animate} />
+        </div>
         <a href="./vladimir-resume.pdf" target="_blank">
           <button class="btn">PDF Resume <Icon class="ml-2 text-lg">arrow_forward_ios</Icon></button>
         </a>
       </div>
     </div>
+  </div>
+  <div
+    class="absolute bottom-14 left-1/2 transform -translate-x-1/2 cursor-pointer"
+    on:click={() => window.scrollTo(0, 200)}
+  >
+    <Icon class="text-4xl animate-bounce">stat_minus_3</Icon>
   </div>
 </div>
 
@@ -78,7 +88,6 @@
     background: transparent;
     box-shadow: $shadows-medium;
     animation: animStar 100s linear infinite;
-
     &:after {
       content: ' ';
       position: absolute;
@@ -95,7 +104,6 @@
     background: transparent;
     box-shadow: $shadows-big;
     animation: animStar 150s linear infinite;
-
     &:after {
       content: ' ';
       position: absolute;

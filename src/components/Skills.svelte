@@ -1,28 +1,24 @@
 <script>
   import Icon from '@components/Icon.svelte';
-  import { t } from '@utils/i18n';
+  import i18n from '@utils/i18n';
 
   export let skillSet;
-
-  let select = skillSet[0].language;
-
-  $: selected = skillSet.find(skill => skill.language == select);
 </script>
 
-<div class="flex flex-wrap gap-2 justify-center my-10">
+<div class="flex flex-wrap gap-2 justify-center my-10 max-w-5xl mx-auto">
   {#each skillSet as skill}
-    <div
-      on:click={() => (select = skill.language)}
-      class={`${skill?.color?.[1] || 'border-neutral-800'} ${skill?.color?.[2]} flex flex-col border cursor-pointer rounded px-2 py-4 min-w-32 transition duration-700 hover:translate-y-1`}
-    >
-      <Icon class={`si-${skill?.icon} ${skill?.color?.[0]}`} />
-      <span>
-        {$t(skill.language)}
-      </span>
+    <div class={`flex gap-2 rounded h-14 w-64 p-2 bg-base-m text-txtPrimary transition hover:bg-base-s`}>
+      <div class={`${skill?.color?.[1]} aspect-square rounded h-full flex justify-center items-center`}>
+        <Icon class={`${skill?.icon} ${skill?.color?.[0]}`}>
+          {#if !skill?.icon.includes('si-')}
+            {skill?.icon}
+          {/if}
+        </Icon>
+      </div>
+      <div class="text-left">
+        <p use:i18n>{skill.language}</p>
+        <p use:i18n class="text-xs text-txtSecondary">{skill.details}</p>
+      </div>
     </div>
   {/each}
-</div>
-
-<div class={`card max-w-xl mx-auto ${selected?.color?.[1] || 'border-neutral-800'} ${selected?.color?.[2]}`}>
-  {$t(selected.details)}
 </div>

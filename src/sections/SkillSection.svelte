@@ -28,12 +28,9 @@
   {#if animateJS}
     <div
       in:fly={{ duration: 500, x: -2000, opacity: 1 }}
-      class="bg-yellow-300 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2"
+      class="bg-yellow-400 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise"
     >
       <h1 use:i18n class="text-3xl font-semibold">JavaScript</h1>
-      <div use:i18n class="max-w-3xl mx-auto my-4">
-        JavaScript is my language of choice for doing almost anything, but I am looking to expand my arsenal.
-      </div>
       <Skills skillSet={experience.js} />
     </div>
   {:else}
@@ -42,7 +39,7 @@
   {#if animateCSharp}
     <div
       in:fly={{ duration: 500, x: 2000, opacity: 1 }}
-      class="bg-purple-500 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2"
+      class="bg-purple-400 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise"
     >
       <h1 use:i18n class="text-3xl font-semibold">C Sharp</h1>
       <div use:i18n class="max-w-3xl mx-auto my-4">
@@ -55,7 +52,7 @@
   {#if animateTools}
     <div
       in:fly={{ duration: 500, x: -2000, opacity: 1 }}
-      class="bg-blue-500 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2"
+      class="bg-blue-500 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise"
     >
       <h1 use:i18n class="text-3xl font-semibold">Tools</h1>
       <Skills skillSet={experience.other} />
@@ -66,13 +63,9 @@
   {#if animateSkills}
     <div
       in:fly={{ duration: 500, x: 2000, opacity: 1 }}
-      class="bg-neutral-200 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2"
+      class="bg-green-500 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise"
     >
       <h1 use:i18n class="text-3xl font-semibold">Soft Skills</h1>
-      <div use:i18n class="max-w-3xl mx-auto my-4">
-        Given my experience in working with others on large projects, I have gained valuable skills for working in a
-        team with other people.
-      </div>
       <Skills skillSet={experience.softSkills} />
     </div>
   {:else}

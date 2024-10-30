@@ -22,7 +22,16 @@ export default function i18n(node) {
     if (language == 'en') {
       node.innerText = node?.originalText || node.innerText;
     } else {
-      node.innerText = translations?.[node.innerText]?.[locales.indexOf(language)] || node.innerText;
+      const translation = translations?.[node.innerText]?.[locales.indexOf(language)];
+      if (!translation && node.innerText.split(' ').length > 1) {
+        console.info(
+          'No translation for',
+          node.innerText,
+          'add it to the translations like this \n',
+          `"${node.innerText}": [""]`
+        );
+      }
+      node.innerText = translation || node.innerText;
     }
   });
 }
