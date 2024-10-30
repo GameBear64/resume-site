@@ -39,10 +39,10 @@
     </button>
   </div>
 
-  <div class="w-full flex justify-center px-4 my-10">
+  <div class="w-full justify-center px-4 my-10">
     {#key timeline[selected]}
       <div
-        class="card max-w-4xl"
+        class="card max-w-4xl mx-auto"
         in:fly={{ x: selected == 'professional' ? -100 : 100, duration: 200, opacity: 0, delay: 200 }}
         out:fly={{ x: selected == 'professional' ? 100 : -100, duration: 200, opacity: 0 }}
       >

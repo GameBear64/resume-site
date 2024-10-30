@@ -20,7 +20,7 @@ export default function i18n(node) {
   preferences.subscribe(({ language }) => {
     const translation = translations?.[node.originalText]?.[locales.indexOf(language)];
 
-    if (!translation && node.innerText.split(' ').length > 3) {
+    if (!translation && node.innerText.split(' ').length > 3 && language != 'en') {
       console.info(
         'No translation for',
         node.innerText,
