@@ -5,6 +5,7 @@
   import Icon from '@components/Icon.svelte';
 
   import i18n from '@utils/i18n';
+  import { tooltip } from '@utils/tooltip';
   import inView from '@utils/inView';
   import { location } from '@utils/store';
 
@@ -32,7 +33,17 @@
       <div class="flex-1 flex flex-col justify-between">
         <div>
           <h1 use:i18n class="text-4xl md:text-6xl font-semibold">Vladimir Petrov</h1>
-          <p class="my-1"><Icon hollow>location_on</Icon> <span use:i18n>Bulgaria, Vratsa</span></p>
+          <div class="my-1 text-sm">
+            <span use:tooltip={'Location'}>
+              <Icon hollow class="text-md">location_on</Icon> <span use:i18n>Bulgaria, Vratsa</span>;
+            </span>
+            <span use:tooltip={'Birthday 🎉'}>
+              <Icon hollow class="text-md">cake</Icon> <span use:i18n>April 18th</span>;
+            </span>
+            <span use:tooltip={'Current job occupation'}>
+              <Icon hollow class="text-md">work</Icon> <span use:i18n>CFM Media</span>
+            </span>
+          </div>
           <p class="my-4" use:i18n>Software developer, eager to learn and expand my skills.</p>
           <Contacts {animate} />
         </div>

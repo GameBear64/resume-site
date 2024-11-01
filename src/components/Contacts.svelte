@@ -10,7 +10,7 @@
     // { icon: 'mastodon', url: 'https://mastodon.social/@gamriel', hover: 'hover:text-purple-500' },
     { icon: 'x', url: 'https://x.com/GamBar64', hover: 'hover:text-gray-500' },
     { icon: 'github', url: 'https://github.com/GameBear64', hover: 'hover:text-indigo-500' },
-    { icon: 'steam', url: 'https://steamcommunity.com/id/GameBear/', hover: 'hover:text-blue-500' },
+    // { icon: 'steam', url: 'https://steamcommunity.com/id/GameBear/', hover: 'hover:text-blue-500' },
     { icon: 'gmail', url: 'mailto:vlpetrov02@gmail.com', hover: 'hover:text-red-400' },
   ];
 </script>
