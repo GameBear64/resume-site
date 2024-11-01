@@ -33,12 +33,12 @@
       <div class="flex-1 flex flex-col justify-between">
         <div>
           <h1 use:i18n class="text-4xl md:text-6xl font-semibold">Vladimir Petrov</h1>
-          <div class="my-1 text-sm">
+          <div class="text-sm flex gap-4">
             <span use:tooltip={'Location'}>
-              <Icon hollow class="text-md">location_on</Icon> <span use:i18n>Bulgaria, Vratsa</span>;
+              <Icon hollow class="text-md">location_on</Icon> <span use:i18n>Bulgaria, Vratsa</span>
             </span>
             <span use:tooltip={'Birthday 🎉'}>
-              <Icon hollow class="text-md">cake</Icon> <span use:i18n>April 18th</span>;
+              <Icon hollow class="text-md">cake</Icon> <span use:i18n>April 18th</span>
             </span>
             <span use:tooltip={'Current job occupation'}>
               <Icon hollow class="text-md">work</Icon> <span use:i18n>CFM Media</span>

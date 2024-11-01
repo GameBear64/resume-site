@@ -44,7 +44,7 @@
   /* CREDIT */
   /* https://svelte.dev/repl/a4682e449f0a4478aa4a24a804d9fe7c?version=3.38.2 */
   .tooltip {
-    @apply whitespace-nowrap relative pt-2 cursor-help;
+    @apply whitespace-nowrap relative pt-1 cursor-help;
   }
 
   #tooltip {
