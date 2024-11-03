@@ -5,7 +5,7 @@
   import { location } from '@utils/store';
 
   import Icon from '@components/Icon.svelte';
-  import i18n, { t } from '@utils/i18n';
+  import i18n from '@utils/i18n';
   import formatDate, { formatDuration } from '@utils/timeFormatter';
   import TimelineItem from '@components/TimelineItem.svelte';
 

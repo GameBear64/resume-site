@@ -4,7 +4,7 @@
   import Icon from './Icon.svelte';
   import Tag from './Tag.svelte';
   import { tooltip } from '@utils/tooltip';
-  import i18n from '@utils/i18n';
+  import i18n, { t } from '@utils/i18n';
 
   export let name;
   export let image = false;
@@ -20,7 +20,7 @@
   <div class="flex justify-between">
     <h2 class="text-xl font-bold">{name}</h2>
     {#if locked}
-      <span use:tooltip={'Source not available'}>
+      <span use:tooltip={$t('Source not available')}>
         <Icon hollow class="text-red-500">lock</Icon>
       </span>
     {/if}
@@ -45,7 +45,7 @@
           on:mouseleave={() => (hover = false)}
         >
           <Icon class="text-red-500">lock</Icon>
-          <p class="text-red-500 font-semibold">Source not available</p>
+          <p use:i18n class="text-red-500 font-semibold">Source not available</p>
         </div>
       {/if}
       {#if hover && links.length > 0}

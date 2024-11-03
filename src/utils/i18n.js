@@ -11,7 +11,7 @@ const locales = ['bg', 'de', 'jp'];
 // function approach
 export const t = derived(
   preferences,
-  $preferences => key => translations?.[key]?.[locales.indexOf($preferences.language)] || key
+  $preferences => key => translations?.[key]?.[locales.indexOf($preferences.language)] || handleMissingTranslation(key)
 );
 
 // directive approach
@@ -20,14 +20,23 @@ export default function i18n(node) {
   preferences.subscribe(({ language }) => {
     const translation = translations?.[node.originalText]?.[locales.indexOf(language)];
 
-    if (!translation && node.innerText.split(' ').length > 3 && language != 'en') {
-      console.info(
-        'No translation for',
-        node.innerText,
-        'add it to the translations like this \n',
-        `"${node.innerText}": [""]`
-      );
-    }
+    if (!translations?.[node.originalText] && language != 'en') handleMissingTranslation(node.innerText);
+
     node.innerText = translation || node?.originalText || node.innerText;
   });
+}
+
+function handleMissingTranslation(text) {
+  console.log(text);
+
+  if (!window?.missingTranslations) {
+    window.missingTranslations = {};
+    console.log(
+      'Missing translations detected, "window.missingTranslations" was created and it will be filled with strings in the current translation format as you explore the website.'
+    );
+  }
+
+  window.missingTranslations[text] = [''];
+
+  return text;
 }

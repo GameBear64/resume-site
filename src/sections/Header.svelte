@@ -4,7 +4,7 @@
   import Contacts from '@components/Contacts.svelte';
   import Icon from '@components/Icon.svelte';
 
-  import i18n from '@utils/i18n';
+  import i18n, { t } from '@utils/i18n';
   import { tooltip } from '@utils/tooltip';
   import inView from '@utils/inView';
   import { location } from '@utils/store';
@@ -34,13 +34,13 @@
         <div>
           <h1 use:i18n class="text-4xl md:text-6xl font-semibold">Vladimir Petrov</h1>
           <div class="text-sm flex gap-4">
-            <span use:tooltip={'Location'}>
+            <span use:tooltip={$t('Location')}>
               <Icon hollow class="text-md">location_on</Icon> <span use:i18n>Bulgaria, Vratsa</span>
             </span>
-            <span use:tooltip={'Birthday 🎉'}>
+            <span use:tooltip={$t('Birthday 🎉')}>
               <Icon hollow class="text-md">cake</Icon> <span use:i18n>April 18th</span>
             </span>
-            <span use:tooltip={'Current job occupation'}>
+            <span use:tooltip={$t('Current job occupation')}>
               <Icon hollow class="text-md">work</Icon> <span use:i18n>CFM Media</span>
             </span>
           </div>
