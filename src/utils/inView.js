@@ -20,9 +20,8 @@ export default function inView(node, params = {}) {
   };
 
   const setObserver = ({ root, threshold = 1 }) => {
-    const options = { root, threshold };
     if (observer) observer.disconnect();
-    observer = new IntersectionObserver(handleIntersect, options);
+    observer = new IntersectionObserver(handleIntersect, { root, threshold });
     observer.observe(node);
   };
 

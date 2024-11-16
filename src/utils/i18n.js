@@ -27,8 +27,6 @@ export default function i18n(node) {
 }
 
 function handleMissingTranslation(text) {
-  console.log(text);
-
   if (!window?.missingTranslations) {
     window.missingTranslations = {};
     console.log(
