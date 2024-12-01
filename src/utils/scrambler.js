@@ -5,7 +5,6 @@ export default function scrambler(node, params = {}) {
   let observer;
   let done = true;
   node.beforeScramble = node.innerText;
-  // console.log('a');
 
   const handleIntersect = async e => {
     if (!done) {

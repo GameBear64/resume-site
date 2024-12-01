@@ -4,8 +4,9 @@
       {
         "title": "CFM - Software developer",
         "date": 1730422800000,
-        "points": ["Just started here :D"],
-        "technologies": []
+        "end": "present",
+        "points": ["Just started here :D", "A product b2b company in the tourism sector"],
+        "technologies": ["Laravel", "Laravel Nova", "Inertia", "React", "Tailwind"]
       },
       {
         "title": "SoftBridge - Software developer",
@@ -30,7 +31,59 @@
         "technologies": ["NodeJS", "React.js", "React Hook Form", "Vue.js", "Feathers.js", "Material UI", "Bootstrap"]
       }
     ],
-    "personal": [
+    "education": [
+      {
+        "title": "Started the SoftUni C# path",
+        "date": 1715554800000,
+        "end": "present",
+        "points": [
+          "Started learning C# trough SoftUni because I wanted to venture outside of web development and learn new skills."
+        ],
+        "technologies": [
+          "C# Fundamentals",
+          "C# Advanced",
+          "C# OOP",
+          "MySQL",
+          "Entity Framework Core",
+          "ASP.NET Fundamentals",
+          "ASP.NET Advanced",
+          "Software Engineering and DevOps",
+          "Containers and Cloud"
+        ]
+      },
+      {
+        "title": "Primeagen's algorithms course",
+        "date": 1704326400000,
+        "points": [
+          "I wanted to expand my logical thinking with more so I found this free course on algorithms (and may have obtained non-free courses too)"
+        ],
+        "technologies": [
+          "Big O",
+          "Data Structures",
+          "Arrays",
+          "Linked Lists",
+          "Ring Buffer",
+          "Stacks & Queues",
+          "Linear Search",
+          "Binary Search",
+          "Bubble Sort",
+          "Recursion",
+          "Path Finding",
+          "QuickSort",
+          "Trees",
+          "Breadth-First Search",
+          "Depth-First Search",
+          "Heap",
+          "Graphs",
+          "Maps (Dictionaries)"
+        ],
+        "links": [
+          {
+            "name": "Certificate",
+            "url": "https://static.frontendmasters.com/ud/c/d4d9a89bcc/aPVwjxMZsP/algorithms.pdf"
+          }
+        ]
+      },
       {
         "title": "Finished the SoftUni JS path",
         "date": 1631660400000,
@@ -51,7 +104,7 @@
         ],
         "links": [
           {
-            "name": "SoftUni JS Certificate",
+            "name": "SoftUni Certificate",
             "url": "https://softuni.bg/certificates/details/174956/3cfcef66"
           }
         ]
@@ -63,13 +116,43 @@
         "points": [
           "The local dev community had a course for PHP, MySQL, and JS that I attended and completed. It was great because it showed me another language besides JS, as well as being among other developers."
         ],
-        "technologies": ["PHP", "CSS", "JavaScript"]
+        "technologies": ["PHP", "MySQL", "JavaScript"]
+      },
+      {
+        "title": "Teaching myself since I was 14",
+        "date": 1476572400000,
+        "points": [],
+        "technologies": ["HTML", "CSS", "JS"]
+      }
+    ],
+    "personal": [
+      {
+        "title": "Pantone Wall",
+        "date": 1686524400000,
+        "points": [
+          "Not long after my game I found a job. There I learned about React, Vue and many other technologies but I had no free time to experiment. One day while browsing a forum I stumbled on a thread about Pantone colors and minimalistic wallpapers with these colors. People were requesting different colors and gradients so I had the idea to create a generator so they can do it themselves. The app was meet with a lot of positivity!"
+        ],
+        "technologies": ["Svelte", "JavaScript"],
+        "links": [
+          {
+            "name": "Website",
+            "url": "https://pantone-wall.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "RPS Game",
+        "date": 1623452400000,
+        "points": [
+          "After working on my bots for over a year I wanted to expand to something bigger so I set my eyes on the web. At first I wanted to make an Uno clone but decided to try something simpler to gain experience so I made this Rock Paper Scissors game. I even made it multiplayer."
+        ],
+        "technologies": ["JavaScript", "Express", "e.js", "socket.io"]
       },
       {
         "title": "Discord Bots",
         "date": 1542672000000,
         "points": [
-          "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. That is how I created \"KaoBot\", my very first project that serves people."
+          "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. That is how I created \"KaoBot\", my very first project that serves people. Otherwise a bot named \"SmuBot\" was my personal moderation assistant and test bunny."
         ],
         "technologies": ["Discord", "JavaScript", "Canvas"]
       },
@@ -78,12 +161,16 @@
         "date": 1523142000000,
         "points": [
           "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin, change color or appear when a button was clicked."
-        ]
+        ],
+        "technologies": ["JavaScript"]
       },
       {
         "title": "First coding experience",
         "date": 1476572400000,
-        "points": ["I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game."]
+        "points": [
+          "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game and I had to present it in front of a group of around 20 other devs."
+        ],
+        "technologies": ["Ruby"]
       }
     ]
   },

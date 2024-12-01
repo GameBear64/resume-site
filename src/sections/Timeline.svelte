@@ -11,7 +11,17 @@
 
   export let timeline;
 
-  let selected = 'professional';
+  const categories = Object.keys(timeline);
+  let selected = categories[0];
+
+  let fromIndex = 0;
+  let toIndex = 0;
+
+  function changeCategory(category) {
+    fromIndex = categories.findIndex(c => c == selected);
+    toIndex = categories.findIndex(c => c == category);
+    selected = category;
+  }
 </script>
 
 <div id="experience" use:inView={{ threshold: 0.2 }} on:enter={() => ($location = 'experience')}>
@@ -20,31 +30,29 @@
   </div>
 
   <div class="w-full flex justify-center px-4 my-10">
-    <button
-      use:i18n
-      class="font-semibold bg-base-m hover:bg-base-s p-2 rounded-l-md w-60"
-      class:border={selected == 'professional'}
-      on:click={() => (selected = 'professional')}
-    >
-      Professional
-    </button>
-    <div class="border-r-2 border-base"></div>
-    <button
-      use:i18n
-      class="font-semibold bg-base-m hover:bg-base-s p-2 rounded-r-md w-60"
-      class:border={selected == 'personal'}
-      on:click={() => (selected = 'personal')}
-    >
-      Personal
-    </button>
+    {#each categories as category, i}
+      <button
+        use:i18n
+        class="font-semibold bg-base-m hover:bg-base-s p-2 rounded-l-md w-60"
+        class:rounded-l-md={i == 0}
+        class:rounded-r-md={i == categories.length - 1}
+        class:border={selected == category}
+        on:click={() => changeCategory(category)}
+      >
+        {category.charAt(0).toUpperCase() + category.slice(1)}
+      </button>
+      {#if i != categories.length - 1}
+        <div class="border-r-2 border-base"></div>
+      {/if}
+    {/each}
   </div>
 
   <div class="w-full justify-center px-4 my-10">
     {#key timeline[selected]}
       <div
         class="card max-w-4xl mx-auto"
-        in:fly={{ x: selected == 'professional' ? -100 : 100, duration: 200, opacity: 0, delay: 200 }}
-        out:fly={{ x: selected == 'professional' ? 100 : -100, duration: 200, opacity: 0 }}
+        in:fly={{ x: fromIndex > toIndex ? -100 : 100, duration: 200, opacity: 0, delay: 200 }}
+        out:fly={{ x: fromIndex < toIndex ? -100 : 100, duration: 200, opacity: 0 }}
       >
         <ol class="flex flex-col justify-center items-center">
           {#each timeline[selected] as item, i}

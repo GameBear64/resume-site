@@ -1,6 +1,7 @@
 <script>
   import i18n from '@utils/i18n';
   import formatDate, { formatDuration } from '@utils/timeFormatter';
+  import TimelineDates from './TimelineDates.svelte';
 
   export let item;
   export let isLast;
@@ -8,7 +9,7 @@
 
 <li class="transition-colors delay-500 ease-in flex flex-start relative w-full">
   <div class="w-full">
-    <div class="flex justify-between flex-wrap md:flex-nowrap mb-4 text-primary-more">
+    <div class="flex justify-between flex-wrap gap-4 md:flex-nowrap mb-4 text-primary-more">
       <div>
         <p use:i18n class="font-bold text-xl">{item.title}</p>
         {#if item?.technologies}
@@ -16,18 +17,7 @@
         {/if}
       </div>
       <div class="md:min-w-44 text-right">
-        <div>
-          <span use:formatDate class="font-medium text-sm">{item.date}</span>
-          {#if item?.end}
-            -
-            <span use:formatDate class="font-medium text-sm">{item.end}</span>
-          {/if}
-        </div>
-        {#if item?.end}
-          <span class="font-medium text-xs text-txtSecondary">
-            {formatDuration((item.end - item.date) / 1000)}
-          </span>
-        {/if}
+        <TimelineDates date={item?.date} end={item?.end} />
       </div>
     </div>
     <ul class="list-disc list-inside marker:text-primary" class:list-disc={item.points.length > 1}>
