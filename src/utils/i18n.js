@@ -34,7 +34,7 @@ function handleMissingTranslation(text) {
     );
   }
 
-  window.missingTranslations[text] = [''];
+  window.missingTranslations[text] = locales;
 
   return text;
 }

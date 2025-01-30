@@ -11,12 +11,9 @@
   export let numberOfProjects;
 
   // NOTE: mobile browsers handle animations weirdly
-  let width = document.defaultView.innerWidth;
+  let isMobile = document.defaultView.innerWidth <= 768;
 
-  let animateJS = width <= 768;
-  let animateCSharp = width <= 768;
-  let animateTools = width <= 768;
-  let animateSkills = width <= 768;
+  let animateSkill = Array(experience.length).fill(false);
 </script>
 
 <div id="skills" use:inView={{ threshold: 0.2 }} on:enter={() => ($location = 'skills')}>
@@ -25,50 +22,27 @@
       <Stats {numberOfProjects} />
     </div>
   </div>
-  {#if animateJS}
-    <div
-      in:fly={{ duration: 500, x: -2000, opacity: 1 }}
-      class="bg-yellow-400 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise"
-    >
-      <h1 use:i18n class="text-3xl font-semibold">JavaScript</h1>
-      <Skills skillSet={experience.js} />
-    </div>
-  {:else}
-    <div class="mt-60 p-2" use:inView on:enter={() => (animateJS = true)}></div>
-  {/if}
-  {#if animateCSharp}
-    <div
-      in:fly={{ duration: 500, x: 2000, opacity: 1 }}
-      class="bg-purple-400 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise"
-    >
-      <h1 use:i18n class="text-3xl font-semibold">C Sharp</h1>
-      <div use:i18n class="max-w-3xl mx-auto my-4">
-        Started learning C# in SoftUni on 13-05-2024. Stay tuned for updates!
+
+  {#each experience as section, i}
+    {#if animateSkill[i] || isMobile}
+      <div
+        in:fly={{ duration: 500, x: i % 2 == 0 ? -2000 : 2000, opacity: 1 }}
+        class={`text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise ${section.color}`}
+      >
+        <h1 use:i18n class="text-3xl font-semibold">{section.title}</h1>
+
+        {#if section.description}
+          <div use:i18n class="max-w-3xl mx-auto my-4">
+            {section.description}
+          </div>
+        {/if}
+
+        {#if section.skills}
+          <Skills skillSet={section.skills} />
+        {/if}
       </div>
-    </div>
-  {:else}
-    <div class="mt-44 p-2" use:inView on:enter={() => (animateCSharp = true)}></div>
-  {/if}
-  {#if animateTools}
-    <div
-      in:fly={{ duration: 500, x: -2000, opacity: 1 }}
-      class="bg-blue-500 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise"
-    >
-      <h1 use:i18n class="text-3xl font-semibold">Tools</h1>
-      <Skills skillSet={experience.other} />
-    </div>
-  {:else}
-    <div class="mt-60 p-2" use:inView on:enter={() => (animateTools = true)}></div>
-  {/if}
-  {#if animateSkills}
-    <div
-      in:fly={{ duration: 500, x: 2000, opacity: 1 }}
-      class="bg-green-500 text-black slanted-2 text-center py-12 px-4 my-4 md:my-0 xl:-my-2 noise"
-    >
-      <h1 use:i18n class="text-3xl font-semibold">Soft Skills</h1>
-      <Skills skillSet={experience.softSkills} />
-    </div>
-  {:else}
-    <div class="mt-60 p-2" use:inView on:enter={() => (animateSkills = true)}></div>
-  {/if}
+    {:else}
+      <div class="mt-60 p-2" use:inView on:enter={() => (animateSkill[i] = true)}></div>
+    {/if}
+  {/each}
 </div>

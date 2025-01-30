@@ -5,6 +5,7 @@
 
   import Icon from '@components/Icon.svelte';
   import RoundButton from '@components/RoundButton.svelte';
+  import SideFooter from '@components/SideFooter.svelte';
 
   import { sidebarOpen, toggleSideBar, preferences, setTheme, setAccent } from '@utils/store';
 
@@ -76,6 +77,6 @@
         </label>
       </div>
     </div>
-    <div>Made with <Icon class="text-red-500 text-base align-top">favorite</Icon> by GamBar.</div>
+    <SideFooter />
   </div>
 {/if}

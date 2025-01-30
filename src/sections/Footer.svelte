@@ -16,9 +16,7 @@
     if ($location == 'contacts') $location = 'projects';
   }}
 >
-  <div class="bg-base-m slanted-2 text-center py-12 my-6 md:my-2">
-    <!-- <h1 class="text-4xl font-bold">Contacts</h1> -->
-  </div>
+  <div class="bg-base-m slanted-2 text-center py-12 my-6 md:my-2" />
   <div class="flex justify-center my-6" use:inView on:enter={() => (animate = true)} on:exit={() => (animate = false)}>
     <Contacts {animate} />
   </div>

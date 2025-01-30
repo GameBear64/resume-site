@@ -33,10 +33,17 @@ export default {
           '70%': { boxShadow: '0 0 0 10px rgba(0, 0, 0, 0)' },
           '100%': { boxShadow: '0 0 0 50px rgba(0, 0, 0, 0)' },
         },
+        shake: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '25%': { transform: 'translateX(-3px)' },
+          '50%': { transform: 'translateX(3px)' },
+          '75%': { transform: 'translateX(-3px)' },
+        },
       }),
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
         shadowPulse: 'shadowPulse 2s ease-in-out infinite',
+        shake: 'shake 0.3s ease-in-out',
       },
       fontFamily: {
         code: 'Cascadia Code',

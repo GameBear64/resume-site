@@ -5,8 +5,13 @@
         "title": "CFM - Software developer",
         "date": 1730422800000,
         "end": "present",
-        "points": ["Just started here :D", "A product b2b company in the tourism sector"],
-        "technologies": ["Laravel", "Laravel Nova", "Inertia", "React", "Tailwind"]
+        "points": [
+          "Created full-stack solutions using Laravel, Inertia.js, and React to streamline operations for tourism-focused businesses.",
+          "Developed and maintained a robust RMS used by multiple clients to efficiently manage their web platforms.",
+          "Integrated third-party APIs and services to enhance application functionality and user benefit.",
+          "Worked on the delivery of scalable B2B solutions tailored to industry needs."
+        ],
+        "technologies": ["Laravel", "Laravel Nova", "Inertia", "React", "SWR", "Tailwind"]
       },
       {
         "title": "SoftBridge - Software developer",
@@ -34,7 +39,7 @@
     "education": [
       {
         "title": "Started the SoftUni C# path",
-        "date": 1715554800000,
+        "date": 1715547600000,
         "end": "present",
         "points": [
           "Started learning C# trough SoftUni because I wanted to venture outside of web development and learn new skills."
@@ -174,32 +179,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "title": "First coding experience",
-      "date": "22-10-2016",
-      "icon": "star",
-      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it."
-    },
-    {
-      "title": "First coding experience",
-      "date": "22-10-2016",
-      "icon": "star",
-      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it."
-    },
-    {
-      "title": "First coding experience",
-      "date": "22-10-2016",
-      "icon": "star",
-      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it."
-    },
-    {
-      "title": "First coding experience",
-      "date": "22-10-2016",
-      "icon": "star",
-      "description": "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game. The best part is that I found a video of it."
-    }
-  ],
   "projects": [
     {
       "name": "Portfolio Website",
@@ -615,114 +594,149 @@
       ]
     }
   ],
-  "experience": {
-    "js": [
-      {
-        "language": "React",
-        "details": "Front-end library",
-        "icon": "si-react",
-        "color": ["text-blue-400", "bg-blue-400/20"]
-      },
-      {
-        "language": "Vue",
-        "details": "Front-end framework",
-        "icon": "si-vuedotjs",
-        "color": ["text-green-500", "bg-green-500/20"]
-      },
-      {
-        "language": "Svelte",
-        "details": "Front-end framework",
-        "icon": "si-svelte",
-        "color": ["text-orange-500", "bg-orange-500/20"]
-      },
-      {
-        "language": "Node.js",
-        "details": "Runtime environment",
-        "icon": "si-nodedotjs",
-        "color": ["text-green-500", "bg-green-500/20"]
-      },
-      {
-        "language": "Express.js",
-        "details": "Back-end framework",
-        "icon": "si-express",
-        "color": ["text-blue-400", "bg-blue-600/20"]
-      },
-      {
-        "language": "Socket.io",
-        "details": "Real-time communication library",
-        "icon": "si-socketdotio",
-        "color": ["text-white", "bg-neutral-900/50"]
-      }
-    ],
-    "other": [
-      {
-        "language": "MongoDB",
-        "details": "Document-oriented database",
-        "icon": "si-mongodb",
-        "color": ["text-green-500", "bg-green-500/20"]
-      },
-      {
-        "language": "SQL",
-        "details": "Structured Query Language",
-        "icon": "si-sqlite",
-        "color": ["text-blue-500", "bg-blue-600/20"]
-      },
-      {
-        "language": "Linux",
-        "details": "Operating system",
-        "icon": "si-debian",
-        "color": ["text-red-600", "bg-red-700/20"]
-      },
-      {
-        "language": "Git",
-        "details": "Distributed version control",
-        "icon": "si-git",
-        "color": ["text-orange-600", "bg-orange-600/20"]
-      },
-      {
-        "language": "Tailwind",
-        "details": "CSS framework",
-        "icon": "si-tailwindcss",
-        "color": ["text-blue-400", "bg-blue-400/20"]
-      },
-      {
-        "language": "Testing",
-        "details": "JavaScript testing framework",
-        "icon": "si-jest",
-        "color": ["text-red-500", "bg-red-500/20"]
-      }
-    ],
-    "softSkills": [
-      {
-        "language": "Team player",
-        "details": "Stronger together",
-        "icon": "groups",
-        "color": ["text-green-500", "bg-green-500/20"]
-      },
-      {
-        "language": "Adaptability",
-        "details": "I love the challenge",
-        "icon": "bolt",
-        "color": ["text-blue-500", "bg-blue-500/20"]
-      },
-      {
-        "language": "Communication",
-        "details": "Listening, feedback, discussion",
-        "icon": "voice_selection",
-        "color": ["text-red-500", "bg-red-500/20"]
-      },
-      {
-        "language": "Creativity",
-        "details": "It is an art form",
-        "icon": "draw",
-        "color": ["text-orange-500", "bg-orange-500/20"]
-      },
-      {
-        "language": "Work ethic",
-        "details": "Work hard, play hard",
-        "icon": "work",
-        "color": ["text-white", "bg-neutral-900/50"]
-      }
-    ]
-  }
+  "experience": [
+    {
+      "title": "JavaScript",
+      "color": "bg-yellow-400",
+      "skills": [
+        {
+          "language": "React",
+          "details": "Front-end library",
+          "icon": "si-react",
+          "color": ["text-blue-400", "bg-blue-400/20"]
+        },
+        {
+          "language": "Vue",
+          "details": "Front-end framework",
+          "icon": "si-vuedotjs",
+          "color": ["text-green-500", "bg-green-500/20"]
+        },
+        {
+          "language": "Svelte",
+          "details": "Front-end framework",
+          "icon": "si-svelte",
+          "color": ["text-orange-500", "bg-orange-500/20"]
+        },
+        {
+          "language": "Node.js",
+          "details": "Runtime environment",
+          "icon": "si-nodedotjs",
+          "color": ["text-green-500", "bg-green-500/20"]
+        },
+        {
+          "language": "Express.js",
+          "details": "Back-end framework",
+          "icon": "si-express",
+          "color": ["text-blue-400", "bg-blue-600/20"]
+        },
+        {
+          "language": "Socket.io",
+          "details": "Real-time communication library",
+          "icon": "si-socketdotio",
+          "color": ["text-white", "bg-neutral-900/50"]
+        },
+        {
+          "language": "Tailwind",
+          "details": "CSS framework",
+          "icon": "si-tailwindcss",
+          "color": ["text-blue-400", "bg-blue-400/20"]
+        },
+        {
+          "language": "MUI",
+          "details": "Component Library",
+          "icon": "si-mui",
+          "color": ["text-blue-500", "bg-blue-600/20"]
+        }
+      ]
+    },
+    {
+      "title": "Tools",
+      "color": "bg-blue-500",
+      "skills": [
+        {
+          "language": "MongoDB",
+          "details": "Document-oriented database",
+          "icon": "si-mongodb",
+          "color": ["text-green-500", "bg-green-500/20"]
+        },
+        {
+          "language": "SQL",
+          "details": "Structured Query Language",
+          "icon": "si-sqlite",
+          "color": ["text-blue-500", "bg-blue-600/20"]
+        },
+        {
+          "language": "Linux",
+          "details": "Operating system",
+          "icon": "si-debian",
+          "color": ["text-red-600", "bg-red-700/20"]
+        },
+        {
+          "language": "nginx",
+          "details": "HTTP web server",
+          "icon": "si-nginx",
+          "color": ["text-green-600", "bg-green-600/20"]
+        }
+      ]
+    },
+    {
+      "title": "Laravel",
+      "color": "bg-red-500",
+      "skills": [
+        {
+          "language": "Inertia.js",
+          "details": "Monolith adapter",
+          "icon": "si-inertia",
+          "color": ["text-purple-500", "bg-purple-500/20"]
+        },
+        {
+          "language": "Nova",
+          "details": "Administration panel add-on",
+          "icon": "si-laravelnova",
+          "color": ["text-cyan-500", "bg-cyan-500/20"]
+        }
+      ]
+    },
+    {
+      "title": "C Sharp",
+      "color": "bg-purple-400",
+      "description": "Started learning C# in SoftUni on 13-05-2024. Stay tuned for updates!"
+    },
+    {
+      "title": "Soft Skills",
+      "color": "bg-green-500",
+      "skills": [
+        {
+          "language": "Team player",
+          "details": "Stronger together",
+          "icon": "groups",
+          "color": ["text-green-500", "bg-green-500/20"]
+        },
+        {
+          "language": "Adaptability",
+          "details": "I love the challenge",
+          "icon": "bolt",
+          "color": ["text-blue-500", "bg-blue-500/20"]
+        },
+        {
+          "language": "Communication",
+          "details": "Listening, feedback, discussion",
+          "icon": "voice_selection",
+          "color": ["text-red-500", "bg-red-500/20"]
+        },
+        {
+          "language": "Creativity",
+          "details": "It is an art form",
+          "icon": "draw",
+          "color": ["text-orange-500", "bg-orange-500/20"]
+        },
+        {
+          "language": "Work ethic",
+          "details": "Work hard, play hard",
+          "icon": "work",
+          "color": ["text-white", "bg-neutral-900/50"]
+        }
+      ]
+    }
+  ]
 }
