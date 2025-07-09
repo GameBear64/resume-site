@@ -389,34 +389,6 @@
       ]
     },
     {
-      "name": "Hangman Multiplayer",
-      "image": "hangman",
-      "tags": [
-        {
-          "name": "VueJS",
-          "icon": "vuedotjs",
-          "color": "bg-green-500"
-        },
-        {
-          "name": "Tailwind",
-          "icon": "tailwindcss",
-          "color": "bg-cyan-500"
-        },
-        {
-          "name": "Socket.io",
-          "icon": "socketdotio",
-          "color": "bg-black"
-        }
-      ],
-      "description": "Another practice app. I wanted to check out Vue.js, but I decided that I will also check out Tailwind and Socket.io, so I ended up making a game.",
-      "links": [
-        {
-          "name": "View Repo",
-          "url": "https://github.com/GameBear64/hangman"
-        }
-      ]
-    },
-    {
       "name": "Books downloader",
       "image": "books",
       "locked": true,
