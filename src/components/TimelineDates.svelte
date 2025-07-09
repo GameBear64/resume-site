@@ -1,8 +1,7 @@
 <script>
   import formatDate, { formatDuration } from '@utils/timeFormatter';
 
-  export let date;
-  export let end;
+  let { date, end } = $props();
 </script>
 
 <div>
@@ -17,7 +16,7 @@
 </div>
 {#if end == 'present'}
   <span class="font-medium text-xs text-txtSecondary">
-    {formatDuration((new Date().setHours(3, 0, 0, 0) - date) / 1000)}
+    {formatDuration((new Date().setHours(4, 0, 0, 0) - date) / 1000, 'day')}
   </span>
 {:else if end}
   <span class="font-medium text-xs text-txtSecondary">

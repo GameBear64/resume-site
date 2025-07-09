@@ -36,13 +36,62 @@
         "technologies": ["NodeJS", "React.js", "React Hook Form", "Vue.js", "Feathers.js", "Material UI", "Bootstrap"]
       }
     ],
+    "personal": [
+      {
+        "title": "Pantone Wall",
+        "date": 1686524400000,
+        "points": [
+          "Not long after my game I found a job. There I learned about React, Vue and many other technologies but I had no free time to experiment. One day while browsing a forum I stumbled on a thread about Pantone colors and minimalistic wallpapers with these colors. People were requesting different colors and gradients so I had the idea to create a generator so they can do it themselves. The app was meet with a lot of positivity!"
+        ],
+        "technologies": ["Svelte", "JavaScript"],
+        "links": [
+          {
+            "name": "Website",
+            "url": "https://pantone-wall.vercel.app"
+          }
+        ]
+      },
+      {
+        "title": "RPS Game",
+        "date": 1623452400000,
+        "points": [
+          "After working on my bots for over a year I wanted to expand to something bigger so I set my eyes on the web. At first I wanted to make an Uno clone but decided to try something simpler to gain experience so I made this Rock Paper Scissors game. I even made it multiplayer."
+        ],
+        "technologies": ["JavaScript", "Express", "e.js", "socket.io"]
+      },
+      {
+        "title": "Discord Bots",
+        "date": 1542672000000,
+        "points": [
+          "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. That is how I created \"KaoBot\", my very first project that serves people. Otherwise a bot named \"SmuBot\" was my personal moderation assistant and test bunny."
+        ],
+        "technologies": ["Discord", "JavaScript", "Canvas"]
+      },
+      {
+        "title": "First JS projects",
+        "date": 1523142000000,
+        "points": [
+          "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin, change color or appear when a button was clicked."
+        ],
+        "technologies": ["JavaScript"]
+      },
+      {
+        "title": "First coding experience",
+        "date": 1476572400000,
+        "points": [
+          "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game and I had to present it in front of a group of around 20 other devs."
+        ],
+        "technologies": ["Ruby"]
+      }
+    ],
     "education": [
       {
-        "title": "Started the SoftUni C# path",
+        "title": "Started SoftUni again",
         "date": 1715547600000,
         "end": "present",
         "points": [
-          "Started learning C# trough SoftUni because I wanted to venture outside of web development and learn new skills."
+          "Started learning C# trough SoftUni because I wanted to venture outside of web dev and learn new skills.",
+          "Took a CI/CD course to truly become full-stack."
         ],
         "technologies": [
           "C# Fundamentals",
@@ -127,59 +176,43 @@
         "title": "Teaching myself since I was 14",
         "date": 1476572400000,
         "points": [],
-        "technologies": ["HTML", "CSS", "JS"]
-      }
-    ],
-    "personal": [
-      {
-        "title": "Pantone Wall",
-        "date": 1686524400000,
-        "points": [
-          "Not long after my game I found a job. There I learned about React, Vue and many other technologies but I had no free time to experiment. One day while browsing a forum I stumbled on a thread about Pantone colors and minimalistic wallpapers with these colors. People were requesting different colors and gradients so I had the idea to create a generator so they can do it themselves. The app was meet with a lot of positivity!"
-        ],
-        "technologies": ["Svelte", "JavaScript"],
-        "links": [
-          {
-            "name": "Website",
-            "url": "https://pantone-wall.vercel.app"
-          }
-        ]
-      },
-      {
-        "title": "RPS Game",
-        "date": 1623452400000,
-        "points": [
-          "After working on my bots for over a year I wanted to expand to something bigger so I set my eyes on the web. At first I wanted to make an Uno clone but decided to try something simpler to gain experience so I made this Rock Paper Scissors game. I even made it multiplayer."
-        ],
-        "technologies": ["JavaScript", "Express", "e.js", "socket.io"]
-      },
-      {
-        "title": "Discord Bots",
-        "date": 1542672000000,
-        "points": [
-          "At 16, I started creating scripts for Discord using their API. I had a couple of friends from all around the world helping me learn JavaScript. That is how I created \"KaoBot\", my very first project that serves people. Otherwise a bot named \"SmuBot\" was my personal moderation assistant and test bunny."
-        ],
-        "technologies": ["Discord", "JavaScript", "Canvas"]
-      },
-      {
-        "title": "First JS projects",
-        "date": 1523142000000,
-        "points": [
-          "Up to now, I had created a few HTML and CSS websites, but it wasn't enough. So I found out about and learned a bit of JavaScript, using it to make some elements spin, change color or appear when a button was clicked."
-        ],
-        "technologies": ["JavaScript"]
-      },
-      {
-        "title": "First coding experience",
-        "date": 1476572400000,
-        "points": [
-          "I wrote my first ever piece of code at 14. It was a small Ruby text-based adventure game and I had to present it in front of a group of around 20 other devs."
-        ],
-        "technologies": ["Ruby"]
+        "technologies": ["HTML", "CSS", "JS", "Ruby"]
       }
     ]
   },
   "projects": [
+    {
+      "name": "FolderDB",
+      "image": "fdb",
+      "tags": [
+        {
+          "name": "Bun",
+          "icon": "bun",
+          "color": "bg-black"
+        },
+        {
+          "name": "NPM",
+          "icon": "npm",
+          "color": "bg-red-500"
+        },
+        {
+          "name": "Rollup",
+          "icon": "rollupdotjs",
+          "color": "bg-red-600"
+        }
+      ],
+      "description": "Document database solution with no server or viewing software requited. Still being developed but in a usable state.",
+      "links": [
+        {
+          "name": "NPM",
+          "url": "https://www.npmjs.com/package/@gambar/folder-db"
+        },
+        {
+          "name": "View Repo",
+          "url": "https://github.com/GameBear64/FolderDB"
+        }
+      ]
+    },
     {
       "name": "Portfolio Website",
       "image": "portfolio",
@@ -676,6 +709,12 @@
           "details": "HTTP web server",
           "icon": "si-nginx",
           "color": ["text-green-600", "bg-green-600/20"]
+        },
+        {
+          "language": "GitHub Actions",
+          "details": "CI/CD platform",
+          "icon": "si-github",
+          "color": ["text-white", "bg-black/40"]
         }
       ]
     },
@@ -694,13 +733,14 @@
           "details": "Administration panel add-on",
           "icon": "si-laravelnova",
           "color": ["text-cyan-500", "bg-cyan-500/20"]
+        },
+        {
+          "language": "Horizon",
+          "details": "Queue manager",
+          "icon": "si-laravelhorizon",
+          "color": ["text-slate-400", "bg-slate-400/20"]
         }
       ]
-    },
-    {
-      "title": "C Sharp",
-      "color": "bg-purple-400",
-      "description": "Started learning C# in SoftUni on 13-05-2024. Stay tuned for updates!"
     },
     {
       "title": "Soft Skills",

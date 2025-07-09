@@ -2,7 +2,7 @@
   import Icon from '@components/Icon.svelte';
   import i18n from '@utils/i18n';
 
-  export let skillSet;
+  let { skillSet } = $props();
 </script>
 
 <div class="flex flex-wrap gap-2 justify-center my-10 max-w-5xl mx-auto">

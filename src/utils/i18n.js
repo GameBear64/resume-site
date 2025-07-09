@@ -1,5 +1,5 @@
 import { derived, get } from 'svelte/store';
-import { preferences } from '@utils/store';
+import { preferences } from '@utils/stores/settings';
 
 import translations from './translations.json';
 

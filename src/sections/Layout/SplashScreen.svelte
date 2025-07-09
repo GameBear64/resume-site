@@ -3,11 +3,11 @@
   import { cubicIn } from 'svelte/easing';
   import { fly, slide } from 'svelte/transition';
 
-  import { lastSplash, preferences } from '@utils/store';
+  import { lastSplash, preferences } from '@utils/stores/settings';
   import i18n from '@utils/i18n';
 
-  let splash = $lastSplash < new Date().getTime() || !$preferences.splashTimer;
-  let greeting = false;
+  let splash = $state($lastSplash < new Date().getTime() || !$preferences.splashTimer);
+  let greeting = $state(false);
 
   onMount(() => {
     setTimeout(() => {

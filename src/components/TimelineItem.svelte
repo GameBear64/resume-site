@@ -3,8 +3,7 @@
   import formatDate, { formatDuration } from '@utils/timeFormatter';
   import TimelineDates from './TimelineDates.svelte';
 
-  export let item;
-  export let isLast;
+  let { item, isLast } = $props();
 </script>
 
 <li class="transition-colors delay-500 ease-in flex flex-start relative w-full">

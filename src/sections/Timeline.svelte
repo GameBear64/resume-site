@@ -2,20 +2,20 @@
   import { fly } from 'svelte/transition';
 
   import inView from '@utils/inView';
-  import { location } from '@utils/store';
+  import { location } from '@utils/stores/settings';
 
   import Icon from '@components/Icon.svelte';
   import i18n from '@utils/i18n';
   import formatDate, { formatDuration } from '@utils/timeFormatter';
   import TimelineItem from '@components/TimelineItem.svelte';
 
-  export let timeline;
+  let { timeline } = $props();
 
   const categories = Object.keys(timeline);
-  let selected = categories[0];
+  let selected = $state(categories[0]);
 
-  let fromIndex = 0;
-  let toIndex = 0;
+  let fromIndex = $state(0);
+  let toIndex = $state(0);
 
   function changeCategory(category) {
     fromIndex = categories.findIndex(c => c == selected);
@@ -24,7 +24,7 @@
   }
 </script>
 
-<div id="experience" use:inView={{ threshold: 0.2 }} on:enter={() => ($location = 'experience')}>
+<div id="experience" use:inView={{ threshold: 0.2 }} onenter={() => ($location = 'experience')}>
   <div class="bg-base-m slanted-2 text-center py-12 my-6 md:my-2">
     <h1 use:i18n class="text-4xl font-bold">Experience</h1>
   </div>
@@ -37,7 +37,7 @@
         class:rounded-l-md={i == 0}
         class:rounded-r-md={i == categories.length - 1}
         class:border={selected == category}
-        on:click={() => changeCategory(category)}
+        onclick={() => changeCategory(category)}
       >
         {category.charAt(0).toUpperCase() + category.slice(1)}
       </button>

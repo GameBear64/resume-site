@@ -1,5 +1,5 @@
 <script>
-  import { location } from '@utils/store';
+  import { location } from '@utils/stores/settings';
 
   import Stats from '@components/Stats.svelte';
   import Skills from '@components/Skills.svelte';
@@ -7,16 +7,15 @@
   import i18n from '@utils/i18n';
   import { fly } from 'svelte/transition';
 
-  export let experience;
-  export let numberOfProjects;
+  let { experience, numberOfProjects } = $props();
 
   // NOTE: mobile browsers handle animations weirdly
   let isMobile = document.defaultView.innerWidth <= 768;
 
-  let animateSkill = Array(experience.length).fill(false);
+  let animateSkill = $state(Array(experience.length).fill(false));
 </script>
 
-<div id="skills" use:inView={{ threshold: 0.2 }} on:enter={() => ($location = 'skills')}>
+<div id="skills" use:inView={{ threshold: 0.2 }} onenter={() => ($location = 'skills')}>
   <div class="bg-base-m slanted-2 flex justify-center py-12 mb-4 md:mb-0 xl:-mb-2 -mt-5">
     <div class="lg:w-1/2">
       <Stats {numberOfProjects} />
@@ -42,7 +41,7 @@
         {/if}
       </div>
     {:else}
-      <div class="mt-60 p-2" use:inView on:enter={() => (animateSkill[i] = true)}></div>
+      <div class="mt-60 p-2" use:inView onenter={() => (animateSkill[i] = true)}></div>
     {/if}
   {/each}
 </div>

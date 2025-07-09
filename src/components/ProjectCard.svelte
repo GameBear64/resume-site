@@ -6,21 +6,16 @@
   import { tooltip } from '@utils/tooltip';
   import i18n, { t } from '@utils/i18n';
 
-  export let name;
-  export let image = false;
-  export let locked = false;
-  export let tags = [];
-  export let description;
-  export let links = [];
+  let { name, image = false, locked = false, tags = [], description, links = [] } = $props();
 
-  let hover = false;
+  let hover = $state(false);
 </script>
 
 <div class="card w-full h-full max-w-xl">
   <div class="flex justify-between">
     <h2 class="text-xl font-bold">{name}</h2>
     {#if locked}
-      <span use:tooltip={$t('Source not available')}>
+      <span use:tooltip={$t('Private')}>
         <Icon hollow class="text-red-500">lock</Icon>
       </span>
     {/if}
@@ -34,25 +29,25 @@
           class:rotate-1={hover}
           alt="The project logo"
           src={`./${image}.png`}
-          on:focus={() => (hover = true)}
-          on:mouseover={() => (hover = true)}
+          onfocus={() => (hover = true)}
+          onmouseover={() => (hover = true)}
         />
       </div>
       {#if hover && locked && links.length == 0}
         <div
           transition:blur
           class="absolute top-0 size-full flex gap-4 justify-center items-center bg-neutral-700/80 text-2xl"
-          on:mouseleave={() => (hover = false)}
+          onmouseleave={() => (hover = false)}
         >
           <Icon class="text-red-500">lock</Icon>
-          <p use:i18n class="text-red-500 font-semibold">Source not available</p>
+          <p use:i18n class="text-red-500 font-semibold">Private</p>
         </div>
       {/if}
       {#if hover && links.length > 0}
         <div
           transition:blur
           class="absolute top-0 size-full flex gap-4 justify-center items-center bg-neutral-700/60"
-          on:mouseleave={() => (hover = false)}
+          onmouseleave={() => (hover = false)}
         >
           {#each links as link}
             <a use:i18n class="btn" target="_blank" href={link.url}>{link.name}</a>

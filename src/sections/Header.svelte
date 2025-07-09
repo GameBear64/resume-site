@@ -7,9 +7,9 @@
   import i18n, { t } from '@utils/i18n';
   import { tooltip } from '@utils/tooltip';
   import inView from '@utils/inView';
-  import { location } from '@utils/store';
+  import { location } from '@utils/stores/settings';
 
-  let animate = false;
+  let animate = $state(false);
 
   onMount(() => {
     setTimeout(() => {
@@ -22,7 +22,7 @@
   id="header"
   class="h-[95vh] overflow-hidden relative"
   use:inView={{ threshold: 0.6 }}
-  on:enter={() => ($location = 'header')}
+  onenter={() => ($location = 'header')}
 >
   <div id="stars" class="opacity-50"></div>
   <div id="stars2" class="opacity-50"></div>
@@ -55,22 +55,25 @@
   </div>
   <div
     class="absolute bottom-14 left-1/2 transform -translate-x-1/2 cursor-pointer"
-    on:click={() => window.scrollTo(0, 200)}
+    onclick={() => window.scrollTo(0, 200)}
   >
     <Icon class="text-4xl animate-bounce">stat_minus_3</Icon>
   </div>
 </div>
 
 <style lang="scss">
+  @use 'sass:math';
+  @use 'sass:string';
+
   /* CREDIT */
   // https://codepen.io/sarazond/pen/LYGbwj?editors=1100
   @function multiple-box-shadow($n) {
-    $value: '#{random(2000)}px #{random(2000)}px var(--txtPrimary)';
+    $value: '#{math.random(2000)}px #{math.random(2000)}px var(--txtPrimary)';
     @for $i from 2 through $n {
-      $value: '#{$value} , #{random(2000)}px #{random(2000)}px var(--txtPrimary)';
+      $value: '#{$value} , #{math.random(2000)}px #{math.random(2000)}px var(--txtPrimary)';
     }
 
-    @return unquote($value);
+    @return string.unquote($value);
   }
   $shadows-small: multiple-box-shadow(1000);
   $shadows-medium: multiple-box-shadow(400);

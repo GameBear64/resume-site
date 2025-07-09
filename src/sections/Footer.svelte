@@ -3,21 +3,21 @@
   import Icon from '@components/Icon.svelte';
 
   import inView from '@utils/inView';
-  import { location } from '@utils/store';
+  import { location } from '@utils/stores/settings';
 
-  let animate = false;
+  let animate = $state(false);
 </script>
 
 <div
   id="contacts"
   use:inView={{ threshold: 0.4 }}
-  on:enter={() => ($location = 'contacts')}
-  on:exit={() => {
+  onenter={() => ($location = 'contacts')}
+  onexit={() => {
     if ($location == 'contacts') $location = 'projects';
   }}
 >
-  <div class="bg-base-m slanted-2 text-center py-12 my-6 md:my-2" />
-  <div class="flex justify-center my-6" use:inView on:enter={() => (animate = true)} on:exit={() => (animate = false)}>
+  <div class="bg-base-m slanted-2 text-center py-12 my-6 md:my-2"></div>
+  <div class="flex justify-center my-6" use:inView onenter={() => (animate = true)} onexit={() => (animate = false)}>
     <Contacts {animate} />
   </div>
   <!-- <div class="flex justify-center gap-12 text-xl text-center">

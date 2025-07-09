@@ -1,24 +1,25 @@
 <script>
-  export let hollow = false;
-  export let dense = true;
-  export let clickable = false;
+  import { createBubbler } from 'svelte/legacy';
 
-  let data;
+  const bubble = createBubbler();
 
-  $: iconType = data?.className?.includes('si-') ? `si text-2xl` : 'material-symbols-rounded';
+  let { hollow = false, dense = true, clickable = false, children, ...rest } = $props();
+
+  let data = $state();
+
+  let iconType = $derived(data?.className?.includes('si-') ? `si text-2xl` : 'material-symbols-rounded');
 </script>
 
 <span
-  {...$$restProps}
-  class={`${iconType} ${$$restProps?.class || ''} align-sub`}
+  {...rest}
+  class={`${iconType} ${rest?.class || ''} align-sub select-none`}
   class:cursor-pointer={clickable}
   class:active-visual={clickable}
   style:letterSpacing={dense ? '-0.2em' : '0'}
   style:--full={hollow ? 0 : 1}
-  on:click
   bind:this={data}
 >
-  <slot />
+  {@render children?.()}
 </span>
 
 <style>

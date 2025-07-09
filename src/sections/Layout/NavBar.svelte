@@ -1,5 +1,5 @@
 <script>
-  import { toggleSideBar, location } from '@utils/store';
+  import { toggleSideBar, location } from '@utils/stores/settings';
 
   import SideBar from '@sections/Layout/SideBar.svelte';
   import Icon from '@components/Icon.svelte';
@@ -25,7 +25,7 @@
     </div>
   </div>
   <div class="flex gap-6">
-    <Icon clickable on:click={toggleSideBar} class="mx-2">settings</Icon>
+    <Icon clickable onclick={toggleSideBar} class="mx-2">settings</Icon>
   </div>
 </nav>
 

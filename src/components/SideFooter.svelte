@@ -1,7 +1,7 @@
 <script>
   import Icon from '@components/Icon.svelte';
 
-  let shaking = false;
+  let shaking = $state(false);
 
   let emojis = [
     { color: 'text-red-500', emoji: 'favorite' },
@@ -13,7 +13,7 @@
     { color: 'text-txtPrimary', emoji: 'alarm' },
   ];
 
-  let selectedEmoji = 0;
+  let selectedEmoji = $state(0);
 
   function triggerShake() {
     shaking = true;
@@ -23,7 +23,7 @@
     }, 300);
   }
 
-  $: selected = emojis[selectedEmoji];
+  let selected = $derived(emojis[selectedEmoji]);
 </script>
 
 <div>

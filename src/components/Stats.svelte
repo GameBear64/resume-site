@@ -5,7 +5,7 @@
   import inView from '@utils/inView';
   import i18n from '@utils/i18n';
 
-  export let numberOfProjects;
+  let { numberOfProjects } = $props();
 
   const settings = {
     duration: 4000,
@@ -25,7 +25,7 @@
   }
 </script>
 
-<div class="flex justify-between text-center gap-4 px-2" use:inView on:enter={setStats}>
+<div class="flex justify-between text-center gap-4 px-2" use:inView onenter={setStats}>
   <div class="rounded flex flex-col items-center p-1 md:p-4">
     <span class="text-4xl font-bold">{$years}</span> <span use:i18n>years of learning</span>
   </div>

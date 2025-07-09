@@ -1,4 +1,6 @@
 <script>
+  import { self } from 'svelte/legacy';
+
   import { fade, fly } from 'svelte/transition';
 
   import i18n from '@utils/i18n';
@@ -7,7 +9,7 @@
   import RoundButton from '@components/RoundButton.svelte';
   import SideFooter from '@components/SideFooter.svelte';
 
-  import { sidebarOpen, toggleSideBar, preferences, setTheme, setAccent } from '@utils/store';
+  import { sidebarOpen, toggleSideBar, preferences, setTheme, setAccent } from '@utils/stores/settings';
 
   function handleEscape(key) {
     if (key.keyCode == 27 && $sidebarOpen) {
@@ -25,24 +27,24 @@
   });
 </script>
 
-<svelte:window on:keydown={handleEscape} />
+<svelte:window onkeydown={handleEscape} />
 
 {#if $sidebarOpen}
-  <div transition:fade class="fixed inset-0 bg-stone-700 bg-opacity-50 z-50" on:click|self={toggleSideBar}></div>
+  <div transition:fade class="fixed inset-0 bg-stone-700/50 z-50" onclick={self(toggleSideBar)}></div>
   <div
     transition:fly={{ x: 100 }}
     class="bg-base fixed inset-y-0 right-0 p-4 md:p-10 max-w-md w-screen flex justify-between flex-col z-50 overflow-scroll"
   >
     <div>
       <div class="w-full flex justify-end">
-        <Icon clickable on:click={toggleSideBar}>close</Icon>
+        <Icon clickable onclick={toggleSideBar}>close</Icon>
       </div>
       <h2 use:i18n class="my-2 text-2xl font-semibold border-b">Settings</h2>
       <div class="my-10">
         <h3 use:i18n class="my-1 text-xl font-semibold">Theme</h3>
         <div class="flex gap-2">
-          <RoundButton icon="light_mode" colors="bg-yellow-500 text-white" on:click={() => setTheme('light')} />
-          <RoundButton icon="dark_mode" colors="bg-gray-700 text-white" on:click={() => setTheme('dark')} />
+          <RoundButton icon="light_mode" colors="bg-yellow-500 text-white" onclick={() => setTheme('light')} />
+          <RoundButton icon="dark_mode" colors="bg-gray-700 text-white" onclick={() => setTheme('dark')} />
         </div>
       </div>
       <div class="my-10">
@@ -51,7 +53,7 @@
           {#each Object.entries(AccentColors) as color}
             <RoundButton
               colors={color[1]}
-              on:click={() => setAccent(color[0])}
+              onclick={() => setAccent(color[0])}
               highlighted={$preferences.accent == color[0]}
             />
           {/each}

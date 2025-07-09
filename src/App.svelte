@@ -1,5 +1,7 @@
 <script>
-  import { preferences } from '@utils/store';
+  import { run } from 'svelte/legacy';
+
+  import { preferences, TutorialPassed } from '@utils/stores/settings';
 
   import NavBar from '@sections/Layout/NavBar.svelte';
   import SplashScreen from '@sections/Layout/SplashScreen.svelte';
@@ -11,8 +13,11 @@
   import Footer from '@sections/Footer.svelte';
 
   import { timeline, projects, experience } from './data.json';
+  import Tutorial from '@components/Tutorial.svelte';
 
-  $: document.body.className = `theme-${$preferences.theme} theme-${$preferences.accent}`;
+  run(() => {
+    document.body.className = `theme-${$preferences.accent} theme-${$preferences.theme}`;
+  });
 </script>
 
 <main class="flex minimum:hidden justify-center items-center h-screen text-center bg-base text-txtPrimary">
@@ -26,6 +31,9 @@
   <SplashScreen />
   <NavBar />
   <Header />
+  {#if !$TutorialPassed}
+    <Tutorial />
+  {/if}
   <SkillSection {experience} numberOfProjects={projects.length} />
   <Timeline {timeline} />
   <Projects {projects} />

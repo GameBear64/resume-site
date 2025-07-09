@@ -213,7 +213,7 @@
   "Location": ["Местоположение", "Ort", "場所"],
   "Birthday 🎉": ["Рожден ден 🎉", "Geburtstag 🎉", "誕生日 🎉"],
   "Current job occupation": ["Текуща работа", "Derzeitige Beruf", "現在の職業"],
-  "Source not available": ["Kодa не е наличен", "Quelle nicht verfügbar", "情報源は利用できません"],
+  "Private": ["Частно", "Privat", "非公開"],
   "--------------": ["dont translate below this line"],
   "CFM Media": [""],
   "React": [""],
